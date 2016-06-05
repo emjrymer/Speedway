@@ -8,9 +8,11 @@ var Services = React.createClass({
             <div className="row">
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-t">
                     <a href="#tape">
+                    <div className="product-expand">
                    <h1 className="product-header">Tape</h1>
                    <p className="product-description">All types pressure and non sensitive materials on 3 inch cores.  Rewinders.  Turn salvage product into money!</p>
                    <span><h1>T</h1></span>
+                   </div>
                     </a>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-o">

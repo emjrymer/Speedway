@@ -243,10 +243,12 @@ border-right: none;
 .product-expand:hover {
     line-height: 20px;
     margin-top: 0;
+    color: black;
+    font-weight: bolder;
 }
 
 .sr-t {
-    background-image: url("../images/Tape-high-vibrance.png");
+    background-image: url("../images/Tape-blur-3-shade-40.png");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
@@ -263,15 +265,11 @@ center > h1 {
 }
 
 .sr-t:hover {
-    background-image: url("../images/Tape-blur-darken-50.png");
-    text-shadow: 10px 10px 40px #fff;
-    a:hover {
-    color: #fff;
-  }
+    background-image: url("../images/Tape-blur-3-white-40.png");
 }
 
 .sr-o {
-    background-image: url("../images/virgin_pp_polypropylene-sharpen-1.jpg");
+    background-image: url("../images/hands-blur-4-shade-40.jpg");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
@@ -279,12 +277,11 @@ center > h1 {
 }
 
 .sr-o:hover {
-    background-image: url("../images/virgin_pp_polypropylene-blur-4.jpg");
-    opacity: 0.7;
+    background-image: url("../images/hands-blur-4-white-40.jpg");
 }
 
 .sr-b {
-    background-image: url("../images/Picture1.png");
+    background-image: url("../images/drybulk-blur-10-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
@@ -292,12 +289,11 @@ center > h1 {
 }
 
 .sr-b:hover {
-    background-image: url("../images/Picture1.png");
-    opacity: 0.7;
+    background-image: url("../images/drybulk-blur-10-white-50.jpg");
 }
 
 .sr-i {
-    background-image: url("../images/Picture4.png");
+    background-image: url("../images/lightindustrial-blur-5-shade-50.png");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
@@ -305,25 +301,25 @@ center > h1 {
 }
 
 .sr-i:hover {
-    background-image: url("../images/Picture4.png");
-    opacity: 0.7;
+    background-image: url("../images/lightindustrial-blur-5-white-50.png");
 }
 
 .sr-c {
-    background-image: url("../images/warehouse.png");
+    background-image: url("../images/copackperson-blur-10-cropped-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
     padding-top: 2em;
+    background-position: center bottom;
+    zoom: -15;
 }
 
 .sr-c:hover {
-    background-image: url("../images/warehouse.png");
-    opacity: 0.7;
+    background-image: url("../images/copackperson-blur-10-cropped-white-50.jpg");
 }
 
 .sr-3 {
-    background-image: url("../images/warehouse2.png");
+    background-image: url("../images/3pl-person-blur-10-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
@@ -331,8 +327,7 @@ center > h1 {
 }
 
 .sr-3:hover {
-    background-image: url("../images/warehouse2.png");
-    opacity: 0.7;
+    background-image: url("../images/3pl-person-blur-10-white-50.jpg");
 }
 // .sr-o a{
 //    opacity: 0;
@@ -534,7 +529,7 @@ button {
   padding-top: 115px;
   a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-family: 'Muli', sans-serif;
     letter-spacing: 2px;
   }
