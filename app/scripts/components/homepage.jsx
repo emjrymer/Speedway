@@ -26,13 +26,13 @@ var HomePageComponent = React.createClass({
             </center>
         <Services />
         <center>
-        <h1 className="speedway-is">Speedway is..</h1>
+        <h1 className="speedway-is">Our Mission</h1>
         </center>
 	</div>
 
-    <div className="cd-fixed-bg cd-bg-1">
+    <div className="cd-fixed-bg cd-bg-4">
 		<center>
-            <h1 className="middle-explore">Explore Speedway</h1>
+            <h1 className="mission-header">Satisfy Our Customers and Continuously Improve</h1>
             </center>
 	</div>
 

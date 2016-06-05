@@ -16,14 +16,14 @@ var Header = React.createClass({
                     </a>
                 </div>
             </div>
-                  <ul className="list-inline">
-                       <li><a href="#tape">Tape</a></li>
-                       <li><a href="#bulk">Bulk</a></li>
-                       <li><a href="#industrial">Industrial</a></li>
-                       <li><a href="#copackaging">Co Packaging</a></li>
-                       <li><a href="#pl">3PL</a></li>
-                       <li><a href="#contact">Contact Us</a></li>
-                     </ul>
+            <ul className="list-inline">
+               <li><a href="#tape">Tape</a></li>
+               <li><a href="#bulk">Bulk</a></li>
+               <li><a href="#industrial">Industrial</a></li>
+               <li><a href="#copackaging">Co Packaging</a></li>
+               <li><a href="#pl">3PL</a></li>
+               <li><a href="tel:864-271-1149">Call Us</a></li>
+             </ul>
         </header>
     );
   }
