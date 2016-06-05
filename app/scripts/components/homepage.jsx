@@ -16,8 +16,8 @@ var HomePageComponent = React.createClass({
           <div className="row"></div>
 
     <div className="cd-fixed-bg cd-bg-1 header-img">
-        <h1 className="celebrating">Celebrating<br/><span className="years">17</span><br/>Years of Success</h1>
-        <div className="img-overlay-1"></div>
+        <h1 className="header-h1">Celebrating<br/><span className="years">17</span><br/>Years of Success</h1>
+        <div className="img-overlay"></div>
     </div>
 
     <div className="cd-fixed-bg cd-bg-2">

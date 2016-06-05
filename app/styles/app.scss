@@ -79,7 +79,7 @@ h1 {
     // position: absolute;
 }
 
-.img-overlay-1{
+.img-overlay {
     content:"";
     position: absolute;
     height:455px;
@@ -92,17 +92,36 @@ h1 {
     z-index: 10;
     transition: all 0.5s ease-out;
 }
+
+.two {
+    height: 280px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(14, 14, 100);
+}
+
 .cd-fixed-bg.cd-bg-2 {
   background-color: #fff;
   // padding: 10px;
   // margin-bottom: 50px;
 }
+
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../imgages/Picture2.png");
 }
+
 .cd-fixed-bg.cd-bg-4 {
     background-image: url("../images/forkliftandpeople.png");
     min-height: 70%;
+}
+
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("../images/Tape-high-vibrance.png");
+  height:300px;
+  bottom:0px;
+  margin-right: -20px;
+  margin-top: -20px;
+
 }
 
 .cd-scrolling-bg {
@@ -119,6 +138,7 @@ h1 {
 	min-height: 70%;
     background-image: url("http://static1.squarespace.com/static/54a74bc3e4b0e845493a0a9a/54a78797e4b00bf98ff0d388/5520d607e4b0562b8523eef7/?format=1000w");
     opacity: 0.9;
+    padding-top: 140px;
     background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
@@ -452,7 +472,7 @@ a.product-button {
     font-size: 90px;
 }
 
-.celebrating  {
+.header-h1  {
     text-align: center;
     font-family: 'Playfair Display', serif;
     text-shadow: 3px 3px black;
@@ -466,6 +486,10 @@ a.product-button {
     left:250px;
 }
 
+.tape-header  {
+    left:40%;
+    padding-top: 210px;
+}
 
 button {
     border: none;
