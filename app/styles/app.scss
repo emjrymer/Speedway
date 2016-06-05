@@ -1,0 +1,688 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+    // background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.list-inline {
+    float: right;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    padding-right: 2%;
+    padding-top: 3%;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 20px;
+}
+
+.list-inline> li > a {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease;
+    padding: 5px;
+    color: #13562F;
+}
+
+.list-inline> li > a:hover {
+    border-top: 4px solid #0B095E;
+    border-bottom: 4px solid #13562F;
+    background-color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.35);
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/forkliftandpeople.png");
+}
+.header-img{
+    // position: absolute;
+}
+
+.img-overlay-1{
+    content:"";
+    position: absolute;
+    height:455px;
+    top:115px;
+    left:14.5px;
+    bottom:0px;
+    right:14.5px;
+    background-color: green;
+    opacity: 0.5;
+    z-index: 10;
+    transition: all 0.5s ease-out;
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-color: #fff;
+  // padding: 10px;
+  // margin-bottom: 50px;
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../imgages/Picture2.png");
+}
+.cd-fixed-bg.cd-bg-4 {
+    background-image: url("../images/forkliftandpeople.png");
+    min-height: 70%;
+}
+
+.cd-scrolling-bg {
+    margin: 0;
+    box-shadow: 0 0 25px rgba(0,0,0,0.35);
+	min-height: 100%;
+    opacity: 0.5;
+    background-image: url("http://static1.squarespace.com/static/54a74bc3e4b0e845493a0a9a/54a78797e4b00bf98ff0d388/5520d607e4b0562b8523eef7/?format=1000w");
+}
+
+.cd-scrolling-sm {
+    margin: 0;
+    // box-shadow: 0 25px 94px 25px rgba(0,0,0,0.35);
+	min-height: 70%;
+    background-image: url("http://static1.squarespace.com/static/54a74bc3e4b0e845493a0a9a/54a78797e4b00bf98ff0d388/5520d607e4b0562b8523eef7/?format=1000w");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+
+.address a {
+    color: black;
+    text-decoration: none;
+}
+
+#head {
+  width: 100%;
+  height: 115px;
+  float: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 998;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0,0,0,0.35);
+}
+
+.holder {
+    position: relative;
+    -ms-zoom: 1;
+    zoom: 1;
+}
+
+.logoHolder {
+    height: 105px;
+    float: left;
+    text-align: left;
+    background-position: left top;
+    background-repeat: no-repeat;
+    a {
+        display: block;
+        width: 100%;
+        height: 105px;
+        padding: 0 0 0 2.75em;
+        float: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    img {
+        max-width: 100%;
+        padding-top: 15px;
+    }
+  }
+}
+
+.product-button {
+    /* min-height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    // border-right: 5px solid transparent;
+    // border-left: 5px solid transparent;
+    // border-bottom: 5px solid transparent;
+    // border-top: 10px solid transparent;
+}
+
+// .speedway-is {
+//     width: 100%;
+//     transition: background-color 1s;
+//     transition: color 1s;
+//
+// }
+//
+// .speedway-is:hover {
+//     background-color: black;
+//     opacity: 0.9;
+//     color: #fff;
+// }
+
+.middle-explore {
+    margin-bottom: 20px;
+}
+
+.product-button:first-child {
+border-left: none;
+}
+
+.product-button:last-child {
+border-right: none;
+}
+
+.product-expand {
+    line-height: 10px;
+    transition: line-height 1s;
+    transition: margin-top 1s;
+    margin-top: 20px;
+    span > h1 {
+        padding-top: 0;
+    }
+}
+
+.product-expand:hover {
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.sr-t {
+    background-image: url("../images/Tape-high-vibrance.png");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+center > h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.sr-t:hover {
+    background-image: url("../images/Tape-blur-darken-50.png");
+    text-shadow: 10px 10px 40px #fff;
+    color: #fff;
+}
+
+.sr-o {
+    background-image: url("../images/virgin_pp_polypropylene-sharpen-1.jpg");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sr-o:hover {
+    background-image: url("../images/virgin_pp_polypropylene-blur-4.jpg");
+    opacity: 0.7;
+}
+
+.sr-b {
+    background-image: url("../images/Picture1.png");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sr-b:hover {
+    background-image: url("../images/Picture1.png");
+    opacity: 0.7;
+}
+
+.sr-i {
+    background-image: url("../images/Picture4.png");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sr-i:hover {
+    background-image: url("../images/Picture4.png");
+    opacity: 0.7;
+}
+
+.sr-c {
+    background-image: url("../images/warehouse.png");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sr-c:hover {
+    background-image: url("../images/warehouse.png");
+    opacity: 0.7;
+}
+
+.sr-3 {
+    background-image: url("../images/warehouse2.png");
+    transition: background-image 1s;
+    height: 250px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sr-3:hover {
+    background-image: url("../images/warehouse2.png");
+    opacity: 0.7;
+}
+// .sr-o a{
+//    opacity: 0;
+//    overflow:visible;
+//    border:100px solid rgba(0,0,0,0.7);
+//    box-sizing:border-box;
+//    transition: all 0.4s ease-in-out;
+// }
+// .sr-o h1 {
+//     position:relative;
+//    top:-10px; /* Center the link */
+//    opacity: 0;
+//    transition: opacity 0.5s 0s ease-in-out;
+// }
+//
+// .sr-o h1:hover {
+//    opacity:1;
+//    transition-delay: 0.3s;
+//
+// }
+
+// .sr-o a:hover {
+//        opacity: 1;
+//        border:100px solid rgba(0,0,0,0.7);
+//     }
+
+
+
+a.product-button {
+  border: 2px solid white;
+  background-color: #fff;
+  padding: 17px 40px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+//
+// .product-button img {
+//     width: 100px;
+//     height: 100px;
+//     margin: auto 55px;
+// }
+//
+// .product-button img:hover {
+//     border-radius: 5px;
+//     background-color: #eee;
+//     // box-shadow: 0 0 25px 5px rgba(0,0,0,0.35);
+// }
+//
+// .col-xs-12.col-md-2 {
+//     background-color: #eee;
+//     padding: 1% 2%;
+//     margin: auto 19px;
+//     text-align: center;
+//     border-radius: 22px;
+// }
+
+.product-header {
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.product-description {
+    font-size: 12px;
+}
+
+.glyphicon-bold {
+    font-size: 30px;
+    background: #gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+// .products {
+//   padding-left: 5%;
+//   padding-right: 5%;
+//   padding-top: 2%;
+//   padding-bottom: 2%;
+//   // margin-left: 5%;
+//   margin-right: 5%;
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+//   border: 2px solid black;
+//   width: 100%;
+//   height: auto;
+//   background: #fff;
+//   box-shadow: 0 0 5px rgba(0,0,0,0.35);
+// }
+
+.footer {
+    height: 22em;
+    margin-top: 2em;
+    // border: 2px solid black;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPFsjNd-b_wCLpu-WM5XpPOX5KWX5DgcqjWIdqpvi8ykBxGJPJ');
+    color: #gray;
+    font-size: 13px;
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.col-md-2 {
+    margin: 0 auto;
+}
+
+.col-md-6 {
+    padding: 0 30px 12px;
+    margin: 24px 0;
+}
+
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+}
+
+.call {
+    background-color: transparent;
+    width: 20%;
+    padding: 5px;
+    a{
+        letter-spacing: 1.5px;
+    }
+}
+
+.call:hover {
+    background-color: #fff;
+    border-radius: 55px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.35);
+}
+
+.years {
+    font-size: 90px;
+}
+
+.celebrating  {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 3px 3px black;
+    color: #fff;
+    padding-top: 220px;
+    font-size: 80px;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top:0;
+    left:250px;
+}
+
+
+button {
+    border: none;
+    background-color: #eee;
+}
+
+.address {
+    position: absolute;
+    right: 2.5em;
+    top: 2em;
+    text-align: right;
+}
+
+.container-fluid {
+  opacity: 0.9;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  // background-image: url("http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg");
+  height: 570px;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 115px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+.form-control {
+    border: 1px solid #696262
+}
+
+.default {
+    background: #fff;
+    height: 870px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  h2 {
+    font-size: 55px;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 45px;
+  }
+}
+
+.paragraph {
+  text-align: center;
+  background: transparent;
+  // background-color: #eee;
+  margin-right: 0px;
+  padding-bottom: 25px;
+  h2 {
+  font-size: 36px;
+  color: black;
+  }
+  p {
+    font-size: 18px;
+    color: gray;
+    width: 625px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  a {
+    padding-top: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.li_description {
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+}
+
+.carousel-inner .item img {
+  height: 140%;
+}
+
+.slide {
+  margin-top: 6px;
+}
+
+.slide1 {
+  height: 400px;
+
+}
+
+.slide2 {
+  height: 400px;
+}
+
+.slide3 {
+  height: 400px;
+}
+
+.slide4 {
+  height: 400px;
+}
+
+.picbox1 {
+  padding-right: 0;
+  padding-left: 0;
+  img {
+    border-top: 6px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+
+  }
+}
+
+.picbox2 {
+  padding-right: 0;
+  padding-left: 0;
+
+  img {
+    border-top: 6px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    width: 100%;
+
+    video {
+        border-top: 6px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-right: 3px solid #fff;
+        border-left: 3px solid #fff;
+
+    }
+  }
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+    height: 424px;
+    margin-left: 30px;
+}
+
+.image-boxes {
+    margin-top: 20px;
+  img {
+  height: 424px;
+  width: 100%;
+  }
+}
+
+.InputName {
+    width: 18em;
+    border-radius: 5px;
+    float: left;
+}
+
+.InputCompany {
+    width: 17em;
+    border-radius: 5px;
+    float: left;
+    margin-left: 2em;
+}
+
+.InputEmail {
+    width: 23em;
+    border-radius: 5px;
+    float: left;
+}
+
+.InputPhone {
+    width: 175px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 2em;
+}
+
+.InputMessage {
+    width: 531px;
+    border-radius: 5px;
+    clear: both;
+}
+
+.submit-button {
+    clear: both;
+}
+
+label {
+    margin: 0;
+    padding-top: 3px;
+    clear: both;
+    font-size: 85%;
+    line-height: 160%;
+    font-weight: 900;
+    color: #1D3333;
+    display: block;
+    letter-spacing: 2px;
+}
+
+label.InputCompany {
+    margin-left: 30px;
+}
+
+label.InputPhone {
+    margin-left: 30px;
+}
+
+form > div {
+  position: relative;
+}
+
+.contact {
+    display: none;
+}
