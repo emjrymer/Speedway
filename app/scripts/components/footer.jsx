@@ -9,11 +9,7 @@ var Footer = React.createClass({
       <div className='footer'>
           <div>
           <div className="col-md-6">
-                  <ul className="email-us">
-                      <li><a href="mailto:bdrouch@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><center><figcaption> President </figcaption></center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Bill Rouch</a></li>
-                      <li><a href="mailto:bwivell@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><figcaption> General Manager </figcaption><center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> William Wivell</center></a></li>
-                      <li><a href="mailto:nwilson@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><center><figcaption> Accounting </figcaption></center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Nadia Wilson</a></li>
-                  </ul>
+                  
               <div className="address">
                 <a target="_blank" href="https://www.google.com/maps/place/Speedway+Packaging+and+Distribution/@34.8677333,-82.2420914,15z/data=!4m5!3m4!1s0x0:0xc666b001e6b56b9d!8m2!3d34.8677333!4d-82.2420914">
                  <address>

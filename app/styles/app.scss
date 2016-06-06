@@ -18,7 +18,7 @@ img {
 
 body {
     // background-color: #eee;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli', sans-serif;
   ul {
     list-style: none;
   }
@@ -112,8 +112,7 @@ h1 {
     left:14.5px;
     bottom:0px;
     right:14.5px;
-    background-color: green;
-    opacity: 0.5;
+    background-color: rgba(40, 52, 88, 0.57);
     z-index: 10;
     transition: all 0.5s ease-out;
 }
@@ -253,9 +252,8 @@ border-right: none;
 }
 
 .product-expand {
-    line-height: 10px;
-    transition: line-height 1s;
-    transition: margin-top 1s;
+    line-height: 20px;
+    // transition: margin-top 1s;
     margin-top: 20px;
     span > h1 {
         padding-top: 0;
@@ -264,7 +262,7 @@ border-right: none;
 
 .product-expand:hover {
     line-height: 20px;
-    margin-top: 0;
+    // margin-top: 0;
     color: black;
     font-weight: bolder;
 }
@@ -495,6 +493,7 @@ a.product-button {
 .footer-filler {
     font-family: 'Playfair Display', serif;
     line-height: 25px;
+    padding-top: 15px;
     p{
         padding-top: 10px;
         text-indent: 20px;
@@ -558,7 +557,7 @@ a.product-button {
     color: #fff;
     padding-top: 10%;
     font-size: 80px;
-    background-color: rgba(3, 10, 97, 0.46);
+    background-color: rgba(40, 52, 88, 0.57);
     width: 100%;
     height: 400px;
     h1 {
@@ -577,7 +576,7 @@ button {
 .address {
     position: absolute;
     right: 2.5em;
-    top: 6.2em;
+    top: 3.3em;
     text-align: right;
 }
 

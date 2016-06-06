@@ -6,6 +6,11 @@ var Carousel = React.createClass({
   render: function(){
     return (
         <div>
+            <ul className="email-us">
+                <li><a href="mailto:bdrouch@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><center><figcaption> President </figcaption></center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Bill Rouch</a></li>
+                <li><a href="mailto:bwivell@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><figcaption> General Manager </figcaption><center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> William Wivell</center></a></li>
+                <li><a href="mailto:nwilson@speedwaypackaging.com?Subject=Greetings%20From%20The%20Website" target="_top"><center><figcaption> Accounting </figcaption></center><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Nadia Wilson</a></li>
+            </ul>
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
