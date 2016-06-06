@@ -10,39 +10,45 @@ var Services = require('./../components/services.jsx');
 var HomePageComponent = React.createClass({
   render: function(){
     return (
-        <div>
-      <div><Header/></div>
-      <div className="container-fluid">
-          <div className="row"></div>
+            <div>
+            <div><Header/></div>
+            <div className="container-fluid">
+                <div className="row"></div>
 
-    <div className="cd-fixed-bg cd-bg-1 header-img">
-        <h1 className="header-h1">Celebrating<br/><span className="years">17</span><br/>Years of Success</h1>
-        <div className="img-overlay"></div>
-    </div>
+                    <div className="cd-fixed-bg cd-bg-1 header-img">
+                        <h1 className="header-h1">Celebrating<br/><span className="years">17</span><br/>Years of Success</h1>
+                        <div className="img-overlay"></div>
+                    </div>
 
-    <div className="cd-fixed-bg cd-bg-2">
-		<center>
-            <h1>Explore Speedway</h1>
-            </center>
-        <Services />
-        <center>
-        <h1 className="speedway-is">Our Mission</h1>
-        </center>
-	</div>
+                    <div className="cd-fixed-bg cd-bg-2">
+            		    <center>
+                            <h1>Explore Speedway</h1>
+                        </center>
+                        <Services />
+                        <center>
+                            <h1 className="speedway-is">Our Mission</h1>
+                        </center>
+            	    </div>
 
-    <div className="cd-fixed-bg cd-bg-4">
-		<center>
-            <h1 className="mission-header">Satisfy Our Customers and Continuously Improve</h1>
-            </center>
-	</div>
-
-        <div>
-            <Footer/>
-      </div>
-       </div>
-       </div>
-    );
-  }
+                    <div className="cd-fixed-bg cd-bg-4">
+            		<center><div className="mission-header">
+                        <h1>Satisfy Our Customers</h1>
+                        <h1>and Continuously Improve</h1>
+                        </div>
+                     </center>
+            	     </div>
+                    <div>
+                        <Footer/>
+                    </div>
+                    <div className="copyright">
+                        <center>
+                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">emilywivell.com</a></span>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 })
 
 module.exports = HomePageComponent;

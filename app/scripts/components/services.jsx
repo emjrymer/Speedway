@@ -6,15 +6,26 @@ var Services = React.createClass({
     render: function(){
         return (
             <div className="row">
+
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-t">
+                    <span id="surround">
                     <a href="#tape">
                     <div className="product-expand">
-                   <h1 className="product-header">Tape</h1>
-                   <p className="product-description">All types pressure and non sensitive materials on 3 inch cores.  Rewinders.  Turn salvage product into money!</p>
-                   <span><h1>T</h1></span>
-                   </div>
+                    <span id="initial">
+                       <h1 className="product-header">Tape</h1>
+                       <p className="product-description">All types pressure and non sensitive materials on 3 inch cores.  Rewinders.  Turn salvage product into money!</p>
+                       <img src="images/tape-icon-white.png"/>
+                   </span>
+                   <span id="onhover">
+                       <h1 className="product-header">Tape</h1>
+                       <p className="product-description">All types pressure and non sensitive materials on 3 inch cores.  Rewinders.  Turn salvage product into money!</p>
+                       <img src="images/tape-icon.png"/>
+                       </span>
+                    </div>
                     </a>
+                </span>
                 </div>
+
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-o">
                <a href="#">
               <div className="product-expand">
@@ -29,7 +40,7 @@ var Services = React.createClass({
            <div className="product-expand">
            <h1 className="product-header">Plastic Dry Bulk Services</h1>
            <p className="product-description">Railcar Box Offs, Sea Container Offloading, etc.</p>
-           <span><h1>B</h1></span>
+               <span><h1>PDBS</h1></span>
            </div>
        </a>
    </div>

@@ -27,6 +27,28 @@ body {
   }
 }
 
+.email-us {
+    float: left;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+}
+
+.email-us > li {
+    display: inline-block;
+    padding-right: 20px;
+    border-bottom: 1px solid black;
+}
+
+.email-us > li:last-child {
+    padding-right: 0px;
+}
+
+.email-us > li > a {
+    color: black;
+}
+
 .list-inline {
     float: right;
     vertical-align: middle;
@@ -114,7 +136,7 @@ h1 {
 }
 
 .cd-fixed-bg.cd-bg-4 {
-    background-image: url("../images/forkliftandpeople.png");
+    background-image: url("../images/bbbn.jpg");
     min-height: 70%;
     background-size: 100%;
 }
@@ -148,7 +170,7 @@ h1 {
     background-size: cover;
 }
 
-.address a {
+a address {
     color: black;
     text-decoration: none;
 }
@@ -247,12 +269,32 @@ border-right: none;
     font-weight: bolder;
 }
 
-.sr-t {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
     background-image: url("../images/Tape-blur-3-shade-40.png");
     transition: background-image 1s;
     height: 250px;
     text-align: center;
     padding-top: 2em;
+    img {
+        width: 45px;
+    }
+}
+
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-t span {
+    transition: 1s;
+}
+
+#onhover {
+  display: none;
+  transition: display 1s;
+}
+#surround:hover span[id="initial"] {
+  display: none;
+  transition: display 1s;
+}
+#surround:hover span[id="onhover"] {
+  display: block;
+  transition: display 1s;
 }
 
 center > h1 {
@@ -264,11 +306,14 @@ center > h1 {
     margin-bottom: 60px;
 }
 
-.sr-t:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-t:hover {
     background-image: url("../images/Tape-blur-3-white-40.png");
+    img {
+        src:"../images/tape-icon.png";
+    }
 }
 
-.sr-o {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-o {
     background-image: url("../images/hands-blur-4-shade-40.jpg");
     transition: background-image 1s;
     height: 250px;
@@ -276,11 +321,11 @@ center > h1 {
     padding-top: 2em;
 }
 
-.sr-o:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-o:hover {
     background-image: url("../images/hands-blur-4-white-40.jpg");
 }
 
-.sr-b {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-b {
     background-image: url("../images/drybulk-blur-10-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
@@ -288,11 +333,11 @@ center > h1 {
     padding-top: 2em;
 }
 
-.sr-b:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-b:hover {
     background-image: url("../images/drybulk-blur-10-white-50.jpg");
 }
 
-.sr-i {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-i {
     background-image: url("../images/lightindustrial-blur-5-shade-50.png");
     transition: background-image 1s;
     height: 250px;
@@ -300,11 +345,11 @@ center > h1 {
     padding-top: 2em;
 }
 
-.sr-i:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-i:hover {
     background-image: url("../images/lightindustrial-blur-5-white-50.png");
 }
 
-.sr-c {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-c {
     background-image: url("../images/copackperson-blur-10-cropped-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
@@ -314,11 +359,11 @@ center > h1 {
     zoom: -15;
 }
 
-.sr-c:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-c:hover {
     background-image: url("../images/copackperson-blur-10-cropped-white-50.jpg");
 }
 
-.sr-3 {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-3 {
     background-image: url("../images/3pl-person-blur-10-shade-50.jpg");
     transition: background-image 1s;
     height: 250px;
@@ -326,7 +371,7 @@ center > h1 {
     padding-top: 2em;
 }
 
-.sr-3:hover {
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-3:hover {
     background-image: url("../images/3pl-person-blur-10-white-50.jpg");
 }
 // .sr-o a{
@@ -421,27 +466,40 @@ a.product-button {
 
 .footer {
     height: auto;
-    margin-top: 7em;
+    margin-top: 2em;
     right: 0;
     left: 0;
     bottom: 0;
-    width:100%;
-    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPFsjNd-b_wCLpu-WM5XpPOX5KWX5DgcqjWIdqpvi8ykBxGJPJ');
-    color: #gray;
     font-size: 13px;
-    background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
+    // border-radius: 55px;
 }
 
 .col-md-2 {
     margin: 0 auto;
+    border-radius: 55px;
 }
 
 .col-md-6 {
     padding: 0 30px 12px;
-    margin: 24px 0;
+    margin-bottom: 2em;
+}
+
+.footer-filler > p > a > strong {
+    color: black;
+}
+
+.footer-filler > p > a > strong:hover {
+    color: #030865;
+}
+
+.footer-filler {
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    p{
+        padding-top: 10px;
+        text-indent: 20px;
+        line-height: 30px;
+    }
 }
 
 @media (min-width: 992px){
@@ -494,15 +552,21 @@ a.product-button {
 .mission-header {
     left: 20%;
     text-align: center;
+    letter-spacing: 5px;
     font-family: 'Playfair Display', serif;
     text-shadow: 3px 3px black;
     color: #fff;
-    padding-top: 60px;
+    padding-top: 10%;
     font-size: 80px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.58);
+    background-color: rgba(3, 10, 97, 0.46);
     width: 100%;
     height: 400px;
+    h1 {
+        font-size: 70px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
 }
 
 button {
@@ -513,7 +577,7 @@ button {
 .address {
     position: absolute;
     right: 2.5em;
-    top: 2em;
+    top: 6.2em;
     text-align: right;
 }
 
@@ -544,7 +608,7 @@ button {
 }
 
 .btn-default:hover {
-    background-color: rgba(19, 87, 49, 0.33);
+    background-color: rgba(3, 10, 97, 0.25);
     border: 1px solid #696262;
 }
 
@@ -730,6 +794,36 @@ form > div {
   position: relative;
 }
 
-.contact {
-    display: none;
+#contact {
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPFsjNd-b_wCLpu-WM5XpPOX5KWX5DgcqjWIdqpvi8ykBxGJPJ');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 35px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.88);
+}
+
+.copyright {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    margin-top: 7px;
+    width: 100%;
+    font-family: 'Homemade Apple', cursive;
+    color: black;
+    text-shadow: 1px 1px #fff;
+    font-weight: bolder;
+    a{
+        font-family: 'Homemade Apple', cursive;
+        text-transform: lowercase;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 1px 1px #fff;
+
+    }
 }
