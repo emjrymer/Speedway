@@ -16,7 +16,7 @@ var HomePageComponent = React.createClass({
                 <div className="row"></div>
 
                     <div className="cd-fixed-bg cd-bg-1 header-img">
-                        <h1 className="header-h1">Celebrating<br/><span className="years">17</span><br/>Years of Success</h1>
+                        <h1 className="header-h1">Celebrating 17 Years<br/><span className="second-row">of Success</span><br/></h1>
                         <div className="img-overlay"></div>
                     </div>
 
@@ -32,8 +32,8 @@ var HomePageComponent = React.createClass({
 
                     <div className="cd-fixed-bg cd-bg-4">
             		<center><div className="mission-header">
-                        <h1>Satisfy Our Customers</h1>
-                        <h1>and Continuously Improve</h1>
+                        <h1>"Satisfy Our Customers</h1>
+                        <h1>and Continuously Improve"</h1>
                         </div>
                      </center>
             	     </div>

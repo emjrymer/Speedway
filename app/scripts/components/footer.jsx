@@ -8,24 +8,10 @@ var Footer = React.createClass({
     return (
       <div className='footer'>
           <div>
-          <div className="col-md-6">
-                  
-              <div className="address">
-                <a target="_blank" href="https://www.google.com/maps/place/Speedway+Packaging+and+Distribution/@34.8677333,-82.2420914,15z/data=!4m5!3m4!1s0x0:0xc666b001e6b56b9d!8m2!3d34.8677333!4d-82.2420914">
-                 <address>
-                      1221B S. Batesville Rd.<br/>
-                      Greer, SC 29681
-                </address>
-                </a>
-              </div>
 
               <div className="footer-filler">
-                  <h1>Speedway</h1>
-                  <p>Speedway Packaging and Distribution offers fulfillment, salvage rewinding and shrink-wrap packaging, assembly, contract and public warehousing. The southeastern location of our modern warehousing facilitities, our hands-on management team and complete logistics package results in seamless supply-chain integration with professional management.</p>
                   <p>Give us a Call! <a href="tel:864-271-1149"><strong> 864-271-1149</strong></a></p>
               </div>
-          </div>
-
 
         <div className="col-md-6" id="contact">
             <h4>Get in Touch</h4>
@@ -54,6 +40,14 @@ var Footer = React.createClass({
             <input type="hidden" name="_subject" value="New Customer!" />
             <button type="submit" className="btn btn-default submit-button">Submit</button>
         </form>
+        </div>
+        <div className="address">
+          <a target="_blank" href="https://www.google.com/maps/place/Speedway+Packaging+and+Distribution/@34.8677333,-82.2420914,15z/data=!4m5!3m4!1s0x0:0xc666b001e6b56b9d!8m2!3d34.8677333!4d-82.2420914">
+           <address>
+                1221B S. Batesville Rd.<br/>
+                Greer, SC 29681
+          </address>
+          </a>
         </div>
         </div>
     </div>
