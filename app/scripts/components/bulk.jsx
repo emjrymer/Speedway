@@ -9,12 +9,21 @@ var BulkComponent = React.createClass({
     render: function(){
         return (
             <div>
-                <Header/>
-                <div className="container-fluid default">
-                        <div className="row paragraph">
-                           <div className="col-xs-12">
-                               <h2>Plastic Dry Bulk Services</h2>
-                               <div className="col-md-6">
+            <div><Header/></div>
+            <div className="container-fluid">
+                <div className="row"></div>
+
+                    <div className="cd-fixed-bg cd-bg-1 header-img supporting-header">
+                        <h1 className="header-h1 supporting-h1">Plastic Dry Bulk Services</h1>
+                        <div className="img-overlay supporting-overlay"></div>
+                    </div>
+
+                    <div className="cd-fixed-bg cd-bg-2">
+                        <center>
+                            <h1>Explore Speedway</h1>
+                        </center>
+                        <div className="row">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                  <ul>
                                      <li><h1 className="li_description">Railcar Box Offs</h1></li>
                                      <li><h1 className="li_description">Sea Container Offloading</h1></li>
@@ -24,10 +33,11 @@ var BulkComponent = React.createClass({
                                      <li><h1 className="li_description">Warehouse Storage</h1></li>
                                  </ul>
                                </div>
-                             <div className="col-md-6">
-                             </div>
+                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <p>This is sample text</p>
                              <a href="#" className="paragraph-link">TestLink</a>
+                             </div>
+
                            </div>
                          </div>
                         <div className="row image-boxes">

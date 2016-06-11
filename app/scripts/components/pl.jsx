@@ -9,11 +9,17 @@ var PlComponent = React.createClass({
     render: function(){
         return (
             <div>
+                <div>
                 <Header/>
+                </div>
                 <div className="container-fluid default">
-                        <div className="row paragraph">
+                    <div className="row paragraph">
+                        <div className="cd-fixed-bg cd-bg-1 header-img supporting-header">
+                            <h1 className="header-h1 supporting-h1">3PL</h1>
+                            <div className="img-overlay supporting-overlay"></div>
+                        </div>
+
                            <div className="col-xs-12">
-                             <h2>3PL</h2>
                              <div className="col-md-6">
                                  <p>This is sample text</p>
                              </div>
@@ -30,9 +36,10 @@ var PlComponent = React.createClass({
                             <img src="http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg" alt="" />
                           </div>
                         </div>
+                    </div>
+                    <Footer/>
+
                 </div>
-                <Footer/>
-            </div>
         )
     }
 })
