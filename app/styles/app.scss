@@ -141,7 +141,7 @@ h1 {
 
 .cd-fixed-bg.cd-bg-4 {
     // background-image: url("../images/bbbn.jpg");
-    min-height: 60%;
+    min-height: 50%;
     background-size: 100%;
 }
 
@@ -598,6 +598,7 @@ button {
 .address {
     float: right;
     right: 2.5em;
+    margin-top: 5px;
     text-align: right;
 }
 
@@ -825,13 +826,26 @@ form > div {
     padding-top: 10px;
     padding-bottom: 15px;
     color: #fff;
-    margin-left: 25%;
+    margin-left: 5%;
     // border-radius: 35px;
     border: 2px solid black;
-    background-color: rgba(10, 7, 103, 0.75);
+    background-color: rgb(10, 7, 100);
     // box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.88);
     label {
         color: #fff;
+    }
+}
+@media (max-width: 768px){
+    header {
+        // visibility: hidden;
+    }
+
+    .container-fluid {
+        padding-top: 0;
+    }
+
+    .header-h1 {
+        padding-top: 100px;
     }
 }
 

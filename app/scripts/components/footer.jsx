@@ -13,6 +13,7 @@ var Footer = React.createClass({
                   <p>Give us a Call! <a href="tel:864-271-1149"><strong> 864-271-1149</strong></a></p>
               </div>
 
+
         <div className="col-md-6" id="contact">
             <h4>Get in Touch</h4>
          <form action="https://formspree.io/emjwivell@gmail.com" method="POST">
