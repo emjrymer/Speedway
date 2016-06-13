@@ -5,7 +5,7 @@ var Backbone = require('backbone');
 var Footer = require('./../components/footer.jsx');
 var Header = require('./../components/header.jsx');
 
-var IndustrialComponent = React.createClass({
+var AssemblyComponent = React.createClass({
     render: function(){
         return (
             <div>
@@ -13,7 +13,7 @@ var IndustrialComponent = React.createClass({
                 <div className="container-fluid default">
                         <div className="row paragraph">
                            <div className="col-xs-12">
-                             <h2>Light Industrial</h2>
+                             <h2>Light Assembly</h2>
                              <div className="col-md-6">
                                 <p>This is sample text</p>
                              </div>
@@ -37,4 +37,4 @@ var IndustrialComponent = React.createClass({
     }
 })
 
-module.exports = IndustrialComponent;
+module.exports = AssemblyComponent;

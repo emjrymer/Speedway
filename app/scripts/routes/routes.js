@@ -7,7 +7,7 @@ require('backbone-react-component');
 var HomePageComponent = require('./../components/homepage.jsx');
 var TapeComponent = require('./../components/tape.jsx');
 var BulkComponent = require('./../components/bulk.jsx');
-var IndustrialComponent = require('./../components/industrial.jsx');
+var AssemblyComponent = require('./../components/assembly.jsx');
 var CopackagingComponent = require('./../components/copackaging.jsx');
 var PlComponent = require('./../components/pl.jsx');
 var appContainer = document.getElementById('app');
@@ -17,7 +17,7 @@ var Router = Backbone.Router.extend({
     '':'index',
     'tape':'tape',
     'bulk':'bulk',
-    'industrial':'industrial',
+    'assembly':'assembly',
     'copackaging':'copackaging',
     'pl':'pl'
   },
@@ -46,11 +46,11 @@ var Router = Backbone.Router.extend({
       appContainer
     );
   },
-  industrial: function(){
+  assembly: function(){
     ReactDOM.unmountComponentAtNode(appContainer);
 
     ReactDOM.render(
-      React.createElement(IndustrialComponent),
+      React.createElement(AssemblyComponent),
       appContainer
     );
   },

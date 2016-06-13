@@ -6,7 +6,11 @@ var Footer = require('./../components/footer.jsx');
 var Header = require('./../components/header.jsx');
 
 var TapeComponent = React.createClass({
-    render: function(){
+        render: function(){
+            $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('current')
+                }});
         return (
             <div>
             <div><Header/></div>
@@ -63,8 +67,8 @@ var TapeComponent = React.createClass({
                     </div>
             </div>
         </div>
-        );
-    }
+    )
+  }
 })
 
 module.exports = TapeComponent;
