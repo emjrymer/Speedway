@@ -17,16 +17,17 @@ var TapeComponent = React.createClass({
             <div className="container-fluid">
                 <div className="row"></div>
 
-                    <div className="cd-fixed-bg cd-bg-1 header-img supporting-header">
+                    <div className="cd-fixed-bg cd-bg-5 header-img supporting-header">
                         <h1 className="header-h1 supporting-h1">Tape</h1>
                         <div className="img-overlay supporting-overlay"></div>
                     </div>
 
                     <div className="cd-fixed-bg cd-bg-2">
-                        <center>
-                            <h1>Explore Speedway</h1>
-                        </center>
                         <div className="row">
+                            <div className="center-content">
+                                <p className="product-description">Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money.</p>
+                            </div>
+                            <div className="supporting-description">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <video controls>
                               <source src="images/HY-BD.mp4" type="video/mp4" />
@@ -34,6 +35,7 @@ var TapeComponent = React.createClass({
                             </video>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p className="product-description">Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money.</p>
                         <ul>
                             <li><h1 className="li_description">Width: 1.6 M</h1></li>
                             <li><h1 className="li_description">Speed: 200m per Minute</h1></li>
@@ -44,6 +46,7 @@ var TapeComponent = React.createClass({
                                     <li><h1 className="li_description">2 Shafts exchange 280mm</h1></li>
                                </ul></li>
                         </ul>
+                        </div>
                         </div>
                     </div>
                     <center>
@@ -62,7 +65,7 @@ var TapeComponent = React.createClass({
                     </div>
                     <div className="copyright">
                         <center>
-                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">emilywivell.com</a></span>
+                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
                         </center>
                     </div>
             </div>

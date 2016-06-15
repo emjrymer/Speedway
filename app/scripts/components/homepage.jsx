@@ -24,7 +24,7 @@ var HomePageComponent = React.createClass({
             		    <center>
                             <h1>Explore Speedway</h1>
                         </center>
-                        <Services />
+                        <Services/>
                         <center>
                             <h1 className="speedway-is">Our Mission</h1>
                         </center>
@@ -42,7 +42,7 @@ var HomePageComponent = React.createClass({
                     </div>
                     <div className="copyright">
                         <center>
-                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">emilywivell.com</a></span>
+                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
                         </center>
                     </div>
                 </div>
