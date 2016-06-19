@@ -12,17 +12,16 @@ var BulkComponent = React.createClass({
             <div><Header/></div>
             <div className="container-fluid">
                 <div className="row"></div>
-
-                    <div className="cd-fixed-bg cd-bg-1 header-img supporting-header">
-                        <h1 className="header-h1 supporting-h1">Plastic Dry Bulk Services</h1>
+                    <div className="cd-fixed-bg cd-bg-bulk header-img supporting-header">
+                        <h1 className="header-h1 supporting-h1 bulk-header">Plastic Dry Bulk Services</h1>
                         <div className="img-overlay supporting-overlay"></div>
                     </div>
-
                     <div className="cd-fixed-bg cd-bg-2">
                         <center>
-                            <h1>Explore Speedway</h1>
+                            <h1 className="supporting-center-h1">Explore Speedway</h1>
                         </center>
                         <div className="row">
+                            <div className="supporting-description">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                  <ul>
                                      <li><h1 className="li_description">Railcar Box Offs</h1></li>
@@ -37,20 +36,19 @@ var BulkComponent = React.createClass({
                                 <p>This is sample text</p>
                              <a href="#" className="paragraph-link">TestLink</a>
                              </div>
-
+                            </div>
                            </div>
                          </div>
-                        <div className="row image-boxes">
-                          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox1">
-                            <img src="images/virgin_polypropylene.jpg" alt="" />
-                          </div>
-                          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox2">
-                            <img src="http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg" alt="" />
-                          </div>
-                        </div>
+                         <div>
+                    <Footer/>
                 </div>
-                <Footer/>
-            </div>
+                <div className="copyright">
+                    <center>
+                        <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
+                    </center>
+                </div>
+        </div>
+    </div>
         )
     }
 })
