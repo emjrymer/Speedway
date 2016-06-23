@@ -9,30 +9,37 @@ var AssemblyComponent = React.createClass({
     render: function(){
         return (
             <div>
-                <Header/>
-                <div className="container-fluid default">
-                        <div className="row paragraph">
-                           <div className="col-xs-12">
-                             <h2>Light Assembly</h2>
-                             <div className="col-md-6">
-                                <p>This is sample text</p>
+            <div><Header/></div>
+            <div className="container-fluid">
+                <div className="row"></div>
+                    <div className="cd-fixed-bg cd-bg-assembly header-img supporting-header">
+                        <h1 className="header-h1 supporting-h1 bulk-header">Light Assembly</h1>
+                            <center>
+                                <p className="product-description-header"><em>From start to finish our team fits<br/>components together to make sense of your time and budget.</em></p>
+                        </center>
+                        <div className="row">
+                            <div className="supporting-description">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p>From start to finish our team fits components together to make sense of your time and budget.</p>
+
+                               </div>
+                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                   <p>From start to finish our team fits components together to make sense of your time and budget.</p>
                              </div>
-                             <div className="col-md-6">
-                                 <p>This is sample text</p>
-                             </div>
+                            </div>
                            </div>
-                         </div>
-                        <div className="row image-boxes">
-                          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox1">
-                            <img src="http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg" alt="" />
-                          </div>
-                          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox2">
-                            <img src="http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg" alt="" />
-                          </div>
-                        </div>
+
+                         <div>
+                    <Footer/>
                 </div>
-                <Footer/>
+                <div className="copyright">
+                    <center>
+                        <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
+                    </center>
+                </div>
             </div>
+        </div>
+    </div>
         )
     }
 })

@@ -6,11 +6,7 @@ var Footer = require('./../components/footer.jsx');
 var Header = require('./../components/header.jsx');
 
 var TapeComponent = React.createClass({
-        render: function(){
-            $('a').each(function() {
-                if ($(this).prop('href') == window.location.href) {
-                    $(this).addClass('current')
-                }});
+    render: function(){
         return (
             <div>
             <div><Header/></div>
@@ -22,13 +18,7 @@ var TapeComponent = React.createClass({
                         <h1 className="header-h1 supporting-h1">Tape</h1>
                         </center>
                         <center>
-                        <p className="product-description-header"><em>Rewinders for all types of pressure and<br/>non-pressure sensitive materials on 3 inch<br/>cores.  Turn salvage product into money!</em></p>
-                        </center>
-                    </div>
-
-                    <div className="cd-fixed-bg cd-bg-2">
-                        <center>
-                            <h1 className="supporting-center-h1">Explore Speedway</h1>
+                        <p className="product-description-header"><em>Rewinders for all types of pressure and non-pressure<br/>sensitive materials on 3 inch cores.  Turn salvage product into money!</em></p>
                         </center>
                         <div className="row">
                             <div className="supporting-description">
@@ -48,25 +38,11 @@ var TapeComponent = React.createClass({
                         </div>
                         </div>
                     </div>
-                    <center>
-                        <h1 className="speedway-is">Our Mission</h1>
-                    </center>
-                    </div>
-                    <div className="cd-fixed-bg cd-bg-4">
-                    <center><div className="mission-header">
-                        <h1>Satisfy Our Customers</h1>
-                        <h1>and Continuously Improve</h1>
-                        </div>
-                     </center>
-                     </div>
+
                     <div>
                         <Footer/>
                     </div>
-                    <div className="copyright">
-                        <center>
-                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
-                        </center>
-                    </div>
+                </div>
             </div>
         </div>
     )

@@ -40,11 +40,6 @@ var HomePageComponent = React.createClass({
                     <div>
                         <Footer/>
                     </div>
-                    <div className="copyright">
-                        <center>
-                            <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
-                        </center>
-                    </div>
                 </div>
             </div>
         );

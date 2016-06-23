@@ -101,7 +101,7 @@ h1 {
 
 .cd-fixed-bg.cd-bg-5.header-img.supporting-header {
     background-size: 100%;
-    min-height: 350px;
+    min-height: 750px;
 }
 
 .img-overlay.supporting-overlay {
@@ -153,20 +153,29 @@ h1 {
 .cd-fixed-bg.cd-bg-5 {
   background-image: url("../images/Tape-blur-3-shade-50-66.png");
   background-size: 100%;
-  // height:300px;
-  // bottom:0px;
-  // margin-right: -20px;
-  // margin-top: -20px;
+  // color: #fff;
+  address {
+    //   color:#fff;
+  }
 }
 
+// .cd-fixed-bg.cd-bg-5.footer.footer-filler p > a > strong {
+//     color: #fff !important;
+// }
+
 .cd-fixed-bg.cd-bg-bulk {
-    background-image: url("../images/drybulk-blur-10-shade-50.jpg");
+    background-image: url("../images/drybulk-blur-10-shade-50-66.jpg");
+    background-size: 100%;
+}
+
+.cd-fixed-bg.cd-bg-assembly {
+    background-image: url("../images/lightindustrial-blur-5-shade-50.png");
     background-size: 100%;
 }
 
 .cd-fixed-bg.cd-bg-bulk.header-img.supporting-header {
     background-size: 100%;
-    min-height: 350px;
+    min-height: 550px;
 }
 
 .cd-scrolling-bg {
@@ -193,7 +202,7 @@ h1 {
     letter-spacing: 1px;
     text-transform: none;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 35px;
 }
 
 .bulk-header {
@@ -202,7 +211,7 @@ h1 {
 }
 
 .supporting-right-column {
-    padding: 60px 40px 53px 40px !important;
+    padding: 45px 40px 53px 40px !important;
 }
 
 a address {
@@ -249,6 +258,10 @@ a address {
         padding-top: 15px;
     }
   }
+}
+
+.white {
+    color: #fff !important;
 }
 
 .product-button {
@@ -524,18 +537,38 @@ a.product-button {
     margin-top: 40px;
 }
 
+.footer-background {
+    clear: both;
+    background: url("http://kkvplusz.hu/wp-content/uploads/2013/04/raktar.jpg") !important;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    color: #fff !important;
+    height: 360px;
+    padding: 15px;
+}
+
 .footer {
     height: auto;
-    margin-top: 2em;
-    right: 0;
-    left: 0;
+    padding-top: 2em;
+    margin-left: -15px;
+    margin-right: -15px;
     bottom: 0;
     font-size: 13px;
+    background-color: #ddd;
+    // height: auto;
+    // margin-top: 2em;
+    // right: 0;
+    // left: 0;
+    // bottom: 0;
+    // font-size: 13px;
     // border-radius: 55px;
 }
 
 .col-xs-12.col-sm-12.col-md-6.col-lg-6 {
-    background-color: #7b0e0e;
+    // background-color: #7b0e0e;
     color: #fff;
     padding-top: 20px;
     padding-bottom: 35px;
@@ -548,7 +581,7 @@ a.product-button {
 
 .col-md-6 {
     padding: 0 30px 12px;
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
 }
 
 .footer-filler > p > a > strong {
@@ -573,6 +606,9 @@ a.product-button {
         // padding-top: 10px;
         // text-indent: 20px;
         line-height: 30px;
+        text-align: left;
+        font-size: 30px;
+        padding: 25px;
     }
 }
 
@@ -616,8 +652,8 @@ a.product-button {
 
 .supporting-description {
     padding: 70px 0px 70px 0px;
-    background-color: #fff;
-    height: 540px;
+    // background-color: #fff;
+    height: 650px;
 }
 
 .center-content {
@@ -677,9 +713,14 @@ button {
 .address {
     float: right;
     /* right: 5.5em; */
+    font-size: 30px;
     margin-top: 5px;
-    text-align: center;
-    padding-right: 35px;
+    text-align: left;
+    // padding-right: 35px;
+}
+
+a address:hover{
+    color: #030865 !important;
 }
 
 .container-fluid {
@@ -821,8 +862,7 @@ button {
 }
 
 video {
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
+    border: 6px solid #fff;
     display: inline-block;
     vertical-align: baseline;
     height: 424px;
@@ -912,7 +952,7 @@ form > div {
     background-position: center center;
     padding-top: 10px;
     padding-bottom: 20px;
-    margin-top: -55px;
+    // margin-top: -55px;
     color: #fff;
     padding-left: 45px;
     margin-left: 25%;
@@ -931,7 +971,7 @@ form > div {
     bottom: 0;
     margin-top: 7px;
     width: 100%;
-    font-family: 'Homemade Apple', cursive;
+    // font-family: 'Homemade Apple', cursive;
     color: black;
     text-shadow: 1px 1px #fff;
     font-weight: bolder;
@@ -942,6 +982,21 @@ form > div {
         color: black;
         font-weight: bolder;
         text-shadow: 1px 1px #fff;
+
+    }
+}
+
+.cr-second {
+    color: #222073;
+    font-weight: 700;
+    // color: #fff;
+    // text-shadow: 1px 1px black;
+
+    a{
+        color: #222073;
+        font-weight: 700;
+        // color: #fff;
+        // text-shadow: 1px 1px black;
 
     }
 }

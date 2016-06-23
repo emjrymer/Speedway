@@ -14,15 +14,13 @@ var BulkComponent = React.createClass({
                 <div className="row"></div>
                     <div className="cd-fixed-bg cd-bg-bulk header-img supporting-header">
                         <h1 className="header-h1 supporting-h1 bulk-header">Plastic Dry Bulk Services</h1>
-                        <div className="img-overlay supporting-overlay"></div>
-                    </div>
-                    <div className="cd-fixed-bg cd-bg-2">
-                        <center>
-                            <h1 className="supporting-center-h1">Explore Speedway</h1>
+                            <center>
+                                <p className="product-description-header"><em>Drives your business forward with each and<br/>every shipment delivering your product safely and efficiently.</em></p>
                         </center>
                         <div className="row">
                             <div className="supporting-description">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p>Our goal is to ensure our customers have the best possible service.  For years we’ve provided bulk logistics solutions for customers. </p>
                                  <ul>
                                      <li><h1 className="li_description">Railcar Box Offs</h1></li>
                                      <li><h1 className="li_description">Sea Container Offloading</h1></li>
@@ -33,12 +31,11 @@ var BulkComponent = React.createClass({
                                  </ul>
                                </div>
                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <p>This is sample text</p>
-                             <a href="#" className="paragraph-link">TestLink</a>
+                                <img src="../dist/images/drybulk-cropped.jpg"/>
                              </div>
                             </div>
                            </div>
-                         </div>
+
                          <div>
                     <Footer/>
                 </div>
@@ -47,6 +44,7 @@ var BulkComponent = React.createClass({
                         <span> &copy; 2016 <a href="http://emilywivell.com" target="_blank">Speedway Packaging and Distribution</a></span>
                     </center>
                 </div>
+            </div>
         </div>
     </div>
         )
