@@ -6216,7 +6216,7 @@ a.product-button {
 
 iframe {
   height: 295px;
-  width: 600px; }
+  width: 585px; }
 
 .speedway-is {
   border: 2px solid #fff;
@@ -6279,6 +6279,9 @@ h1.speedway-is:hover {
 .assembly-header {
   left: 25% !important; }
 
+.pl-header {
+  left: 44% !important; }
+
 .col-xs-12.col-sm-12.col-md-6.col-lg-6 {
   color: #fff;
   padding-top: 20px;
@@ -6326,12 +6329,6 @@ h1.speedway-is:hover {
     font-size: 30px;
     padding: 25px; }
 
-@media (min-width: 992px) {
-  .col-md-6 {
-    width: 50%;
-    float: left;
-    position: relative;
-    min-height: 1px; } }
 .call {
   background-color: transparent;
   width: 20%;
@@ -6631,9 +6628,10 @@ form > div {
   padding-top: 10px;
   padding-bottom: 20px;
   color: #fff;
-  padding-left: 45px; }
+  padding-left: 65px; }
   #contact label {
-    color: #fff; }
+    color: #fff;
+    text-align: left; }
 
 #contact h4 {
   font-size: 33px;
@@ -6703,190 +6701,5 @@ form > div {
   .cr-second a {
     color: #fff;
     font-weight: 700; }
-
-@media (max-width: 1119px) {
-  .list-inline > li {
-    font-size: 17px; }
-
-  .list-inline {
-    padding-top: 4%; }
-
-  .list-inline > li > a {
-    font-size: 20px;
-    padding: 0; }
-
-  .logoHolder a img {
-    max-width: 85%; }
-
-  .header-h1 {
-    left: 100px; }
-
-  p.product-description {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 14px; }
-
-  .InputName {
-    width: 100%; }
-
-  .InputCompany {
-    width: 100%;
-    margin-left: 0; }
-
-  .InputEmail {
-    width: 100%; }
-
-  .InputPhone {
-    width: 100%;
-    margin-left: 0; }
-
-  .InputMessage {
-    width: 100%; }
-
-  #contact label {
-    margin: 0;
-    font-size: 14px; }
-
-  .footer-background {
-    height: 550px; }
-
-  iframe {
-    height: 481px; } }
-@media (max-width: 1046px) {
-  .list-inline > li {
-    font-size: 14px; }
-
-  .list-inline {
-    padding-top: 4%; }
-
-  .logoHolder a img {
-    max-width: 75%; } }
-@media (max-width: 975px) {
-  .list-inline {
-    visibility: hidden; }
-
-  .list-inline > li:last-child {
-    visibility: visible;
-    font-size: 20px;
-    position: absolute;
-    top: 4.1em;
-    left: 38%; }
-
-  .logoHolder a img {
-    max-width: 100%;
-    margin-left: 85%; } }
-@media (max-width: 775px) {
-  .list-inline {
-    visibility: hidden; }
-
-  .list-inline > li:last-child {
-    visibility: visible;
-    font-size: 20px;
-    position: absolute;
-    top: 4.1em;
-    left: 38%; }
-
-  .logoHolder a img {
-    max-width: 100%;
-    margin-left: 85%; } }
-@media (max-width: 768px) {
-  #head {
-    max-width: 100%;
-    width: 100%; }
-
-  .logoHolder a {
-    padding: 0 0 0 0.4em; }
-
-  .InputName {
-    width: 100%; }
-
-  center {
-    height: 0px; }
-
-  center > h1 {
-    visibility: hidden;
-    margin-top: 0px;
-    margin-bottom: 0px; }
-
-  .cd-fixed-bg.cd-bg-1.header-img {
-    visibility: hidden;
-    min-height: 0%; }
-
-  .logoHolder a img {
-    max-width: 100%;
-    runleft: 65%; }
-
-  .list-inline {
-    visibility: hidden; }
-
-  .list-inline > li:last-child {
-    visibility: visible;
-    font-size: 20px;
-    position: absolute;
-    top: 4em;
-    left: 38%; }
-
-  .container-fluid {
-    padding-top: 0; }
-
-  .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
-    margin-top: 115px; }
-
-  #contact {
-    padding-left: 20px;
-    margin-left: 0;
-    margin-top: 0; }
-
-  .cd-fixed-bg.cd-bg-4 {
-    visibility: hidden;
-    min-height: 0%;
-    background-size: 0%; }
-
-  .speedway-is {
-    margin: 0px; }
-
-  .footer-filler p {
-    line-height: 30px;
-    width: 290px;
-    padding-left: 30px; }
-
-  .footer-filler {
-    margin-bottom: 0;
-    padding-left: 5px; }
-
-  .InputMessage {
-    width: 100%; }
-
-  label.InputMessage {
-    margin-bottom: 0; }
-
-  .InputCompany {
-    width: 100%;
-    margin-left: 0; }
-
-  .InputEmail {
-    width: 100%; }
-
-  .InputPhone {
-    width: 100%;
-    margin-left: 0; }
-
-  #contact label {
-    margin-left: 0px; }
-
-  .address {
-    width: 295px;
-    margin-top: 5px;
-    text-align: center;
-    padding-left: 40px; }
-
-  h4 {
-    margin-left: 24%; } }
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  /* Styles */ }
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */ }
 
 /*# sourceMappingURL=app.css.map */

@@ -263,36 +263,36 @@ var Footer = React.createClass({displayName: "Footer",
       React.createElement("div", {className: "footer"}, 
           React.createElement("div", {className: "row negative-margin"}, 
             React.createElement("div", {className: "footer-background"}, 
-                React.createElement("div", {className: "footer-wrapper"}, 
-                    React.createElement("div", {className: "col-md-6", id: "contact"}, 
+                React.createElement("div", {className: "row footer-wrapper"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6", id: "contact"}, 
                         React.createElement("h4", null, "Get in Touch"), 
-                     React.createElement("form", {action: "https://formspree.io/emjwivell@gmail.com", method: "POST"}, 
-                         React.createElement("div", {className: "form-group InputName"}, 
-                             React.createElement("label", {className: "InputName"}, "Name"), 
-                             React.createElement("input", {type: "text", className: "form-control InputName", placeholder: "i.e. - John Smith", name: "Name"})
-                         ), 
-                         React.createElement("div", {className: "form-group InputCompany"}, 
-                             React.createElement("label", {className: "InputCompany"}, "Company"), 
-                             React.createElement("input", {type: "text", className: "form-control InputCompany", placeholder: "i.e. - ABC Inc.", name: "Company"})
-                         ), 
-                         React.createElement("div", {className: "form-group InputEmail"}, 
-                             React.createElement("label", {className: "InputEmail"}, "Email address"), 
-                             React.createElement("input", {type: "email", name: "_replyto", className: "form-control InputEmail", placeholder: "i.e. - JohnSmith@gmail.com"})
-                        ), 
-                        React.createElement("div", {className: "form-group InputPhone"}, 
-                            React.createElement("label", {className: "InputPhone"}, "Phone"), 
-                            React.createElement("input", {type: "tel", name: "Phone", className: "form-control InputPhone", placeholder: "i.e. - (555) 867-5309"})
-                       ), 
-                       React.createElement("div", {className: "form-group InputMessage"}, 
-                           React.createElement("label", {className: "InputMessage"}, "Message"), 
-                           React.createElement("input", {type: "text", name: "Message", className: "form-control InputMessage", placeholder: "i.e. - Pricing info request."})
-                      ), 
-                        React.createElement("input", {type: "hidden", name: "_next", value: "dist/index.html"}), 
-                        React.createElement("input", {type: "hidden", name: "_subject", value: "New Customer!"}), 
-                        React.createElement("button", {type: "submit", className: "btn btn-default submit-button"}, "Submit")
-                    )
+                         React.createElement("form", {action: "https://formspree.io/emjwivell@gmail.com", method: "POST"}, 
+                             React.createElement("div", {className: "form-group InputName"}, 
+                                 React.createElement("label", {className: "InputName"}, "Name"), 
+                                 React.createElement("input", {type: "text", className: "form-control InputName", placeholder: "i.e. - John Smith", name: "Name"})
+                             ), 
+                             React.createElement("div", {className: "form-group InputCompany"}, 
+                                 React.createElement("label", {className: "InputCompany"}, "Company"), 
+                                 React.createElement("input", {type: "text", className: "form-control InputCompany", placeholder: "i.e. - ABC Inc.", name: "Company"})
+                             ), 
+                             React.createElement("div", {className: "form-group InputEmail"}, 
+                                 React.createElement("label", {className: "InputEmail"}, "Email address"), 
+                                 React.createElement("input", {type: "email", name: "_replyto", className: "form-control InputEmail", placeholder: "i.e. - JohnSmith@gmail.com"})
+                            ), 
+                            React.createElement("div", {className: "form-group InputPhone"}, 
+                                React.createElement("label", {className: "InputPhone"}, "Phone"), 
+                                React.createElement("input", {type: "tel", name: "Phone", className: "form-control InputPhone", placeholder: "i.e. - (555) 867-5309"})
+                           ), 
+                           React.createElement("div", {className: "form-group InputMessage"}, 
+                               React.createElement("label", {className: "InputMessage"}, "Message"), 
+                               React.createElement("input", {type: "text", name: "Message", className: "form-control InputMessage", placeholder: "i.e. - Pricing info request."})
+                          ), 
+                            React.createElement("input", {type: "hidden", name: "_next", value: "dist/index.html"}), 
+                            React.createElement("input", {type: "hidden", name: "_subject", value: "New Customer!"}), 
+                            React.createElement("button", {type: "submit", className: "btn btn-default submit-button"}, "Submit")
+                        )
                     ), 
-                    React.createElement("div", {className: "col-md-6"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"}, 
                         React.createElement("iframe", {src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.168077022532!2d-82.2420914!3d34.8677333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1466726640614", width: "100%", height: "318", frameBorder: "0", allowFullScreen: true})
                     )
                   ), 
@@ -323,7 +323,7 @@ var Header = React.createClass({displayName: "Header",
   render: function(){
     return (
 
-        React.createElement("header", {id: "head"}, 
+        React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
             React.createElement("div", {className: "holder"}, 
                 React.createElement("div", {className: "logoHolder"}, 
                     React.createElement("a", {href: "#", title: "Speedway | Packaging and Distribution"}, 
@@ -414,37 +414,61 @@ var PlComponent = React.createClass({displayName: "PlComponent",
     render: function(){
         return (
             React.createElement("div", null, 
-                React.createElement("div", null, 
-                React.createElement(Header, null)
-                ), 
-                React.createElement("div", {className: "container-fluid default"}, 
-                    React.createElement("div", {className: "row paragraph"}, 
-                        React.createElement("div", {className: "cd-fixed-bg cd-bg-1 header-img supporting-header"}, 
-                            React.createElement("h1", {className: "header-h1 supporting-h1"}, "3PL"), 
-                            React.createElement("div", {className: "img-overlay supporting-overlay"})
+            React.createElement("div", null, React.createElement(Header, null)), 
+            React.createElement("div", {className: "container-fluid"}, 
+                React.createElement("div", {className: "row"}, 
+                    React.createElement("div", {className: "cd-fixed-bg cd-bg-assembly header-img supporting-header"}, 
+                        React.createElement("h1", {className: "header-h1 supporting-h1 pl-header"}, "3PL"), 
+                        React.createElement("center", {className: "tape-center"}, 
+                            React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "Actively coordinate your supply chain for", React.createElement("br", null), "business growth, cost savings, and one stop shop service."))
                         ), 
 
-                           React.createElement("div", {className: "col-xs-12"}, 
-                             React.createElement("div", {className: "col-md-6"}, 
-                                 React.createElement("p", null, "This is sample text")
-                             ), 
-                             React.createElement("div", {className: "col-md-6"}, 
-                                 React.createElement("p", null, "This is sample text")
-                             )
-                           )
-                         ), 
-                        React.createElement("div", {className: "row image-boxes"}, 
-                          React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox1"}, 
-                            React.createElement("img", {src: "http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg", alt: ""})
-                          ), 
-                          React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox2"}, 
-                            React.createElement("img", {src: "http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg", alt: ""})
-                          )
-                        )
-                    ), 
-                    React.createElement(Footer, null)
+                        React.createElement("div", {className: "row"}, 
+                            React.createElement("div", {className: "supporting-description assembly-descript"}, 
+                                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column"}, 
+                                    React.createElement("center", {className: "supporting-center-assembly"}, 
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required."), 
+                                        React.createElement("p", {className: "fade-in sup-context"}, "_________________________________")
 
-                )
+                                    )
+                                ), 
+                               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column"}, 
+                                   React.createElement("center", {className: "supporting-center-assembly"}, 
+                                       React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency."), 
+                                       React.createElement("p", {className: "fade-in sup-context"}, "_________________________________")
+                                   )
+                               )
+                            )
+                        ), 
+                        React.createElement("div", {className: "row dark"}, 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/3pl-person-cropped-white.jpg"})
+                            ), 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/3pl-person-warehouse-cropped-white.jpg"})
+                            ), 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/3plperson-cropped-white.jpg"})
+                            )
+                        ), 
+                        React.createElement("div", {className: "action"}, 
+                            React.createElement("div", {className: "row"}, 
+                                React.createElement("div", {className: "col-md-6 bottom-tag"}, 
+                                    "Let Speedway Packaging and Distribustion be the answer for all of your questions!"
+                                ), 
+                                React.createElement("div", {className: "col-md-6 call-button"}, 
+                                    React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call!"))
+                                )
+                            )
+                        ), 
+
+                         React.createElement("div", {className: "left-10"}, 
+                             React.createElement(Footer, null)
+                         )
+                     )
+                 )
+             )
+         )
         )
     }
 })
