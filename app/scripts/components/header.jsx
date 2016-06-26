@@ -12,7 +12,7 @@ var Header = React.createClass({
             <div className="holder">
                 <div className="logoHolder">
                     <a href="#" title="Speedway | Packaging and Distribution">
-                        <img height="75px" src="images/speedway logo.jpg" alt="Speedway Packaging and Distribution" data-pin-nopin="true"></img>
+                        <img height="75px" src="images/speedway-logo-transparent.png" alt="Speedway Packaging and Distribution" data-pin-nopin="true"></img>
                     </a>
                 </div>
             </div>

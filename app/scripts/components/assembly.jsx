@@ -20,16 +20,16 @@ var AssemblyComponent = React.createClass({
 
                         <div className="row">
                             <div className="supporting-description assembly-descript">
-                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-left-column">
-                                    <center className="supporting-center">
-                                        <p className="supporting-product-description fade-in sup-context">As part of the light assembly service, Speedway Packaging and Distribution's vision for a job well done is based off of our standard of excellence.</p>
+                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
+                                    <center className="supporting-center-assembly">
+                                        <p className="supporting-product-description fade-in sup-context">As part of the light assembly service, Speedway Packaging and Distribution's vision for a job well done is extended from our standard of excellence.</p>
                                         <p className="fade-in sup-context">_________________________________</p>
 
                                     </center>
                                 </div>
-                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column">
-                                   <center className="supporting-center">
-                                       <p className="supporting-product-description fade-in sup-context">We work together to accomplish your goals!</p>
+                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
+                                   <center className="supporting-center-assembly">
+                                       <p className="supporting-product-description fade-in sup-context">Let us help you make something bigger and better.  We love working together with our customers for a common purpose, to accomplish their goals!</p>
                                        <p className="fade-in sup-context">_________________________________</p>
                                    </center>
                                </div>

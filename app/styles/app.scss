@@ -532,6 +532,11 @@ a.product-button {
     padding: 35px 60px 0px 60px !important;
 }
 
+.supporting-assembly-column {
+    padding: 35px 60px 0px 60px !important;
+    height: 200px;
+}
+
 .product-description-header {
     color: #f5f5f5;
     font-size: 30px;
@@ -767,7 +772,7 @@ h1.speedway-is:hover {
 }
 
 .assembly-descript {
-    height: 350px !important;
+    height: 300px !important;
 }
 
 .supporting-description {
@@ -779,6 +784,11 @@ h1.speedway-is:hover {
 .supporting-center {
     padding-top: 0px;
     padding-bottom: 60px;
+}
+
+.supporting-center-assembly {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .center-content {
