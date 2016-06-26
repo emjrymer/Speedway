@@ -202,40 +202,48 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
     render: function(){
         return (
             React.createElement("div", null, 
-                React.createElement(Header, null), 
-                React.createElement("div", {className: "container-fluid default"}, 
-                        React.createElement("div", {className: "row paragraph"}, 
-                           React.createElement("div", {className: "col-xs-12"}, 
-                             React.createElement("h2", null, "Co Packaging"), 
-                            React.createElement("div", {className: "col-md-6"}, 
-                                React.createElement("p", null, "This is sample text")
-                            ), 
-                            React.createElement("div", {className: "col-md-6"}, 
-                                React.createElement("p", null, "This is sample text")
-                            )
-                           )
-                         ), 
-                        React.createElement("div", {className: "row image-boxes"}, 
-                          React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox1"}, 
-                            React.createElement("img", {src: "http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg", alt: ""})
-                          ), 
-                          React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox2"}, 
-                            React.createElement("img", {src: "http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg", alt: ""})
-                          )
+            React.createElement("div", null, React.createElement(Header, null)), 
+            React.createElement("div", {className: "container-fluid"}, 
+                React.createElement("div", {className: "row"}, 
+                    React.createElement("div", {className: "cd-fixed-bg cd-bg-5 header-img supporting-header"}, 
+                        React.createElement("center", {className: "tape-center"}, 
+                        React.createElement("h1", {className: "header-h1 supporting-h1 co-header"}, "Co Packaging")
                         ), 
-                        React.createElement("div", {className: "action"}, 
-                            React.createElement("div", {className: "row"}, 
-                                React.createElement("div", {className: "col-md-6 bottom-tag"}, 
-                                    "Let Speedway Packaging and Distribustion be the answer for all of your questions!"
-                                ), 
-                                React.createElement("div", {className: "col-md-6 call-button"}, 
-                                    React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call!"))
+                        React.createElement("center", {className: "tape-center"}, 
+                        React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "Manufacturing and packaging shelf-ready", React.createElement("br", null), "pruducts bringing convience and quality to your business."))
+                        ), 
+                        React.createElement("div", {className: "row"}, 
+                            React.createElement("div", {className: "supporting-description"}, 
+                                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column"}, 
+                                    React.createElement("center", {className: "supporting-center"}, 
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Our experience, abilities, industry connections, and production quality make everything easier for our customers."), 
+                                        React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
+                                        React.createElement("p", {className: "extra-letter-space fade-in sup-context"}, "Speedway Packaging and Distribution helps your business meet the growing demands of the future.  Does your company have a product idea but neither the time nor expertise to produce it, or you have an existing business with growing demand but having challenges expanding capacity?  That's where we come in!")
+                                     )
+                                 ), 
+                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column"}, 
+                                  React.createElement("img", {className: "fade-in sup-context co-sup-image", src: "../dist/images/copackperson-blur-10-cropped.jpg"})
                                 )
                             )
+                        ), 
+                    React.createElement("div", {className: "action"}, 
+                        React.createElement("div", {className: "row"}, 
+                            React.createElement("div", {className: "col-md-6 bottom-tag"}, 
+                                "Let Speedway Packaging and Distribustion be the answer for all of your questions!"
+                            ), 
+                            React.createElement("div", {className: "col-md-6 call-button"}, 
+                                React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call!"))
+                            )
                         )
-                ), 
-                React.createElement(Footer, null)
+                    ), 
+
+                    React.createElement("div", {className: "left-10"}, 
+                        React.createElement(Footer, null)
+                    )
+                )
             )
+            )
+        )
         )
     }
 })

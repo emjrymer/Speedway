@@ -522,6 +522,14 @@ a.product-button {
     padding-right: 45px;
 }
 
+.co-sup-image {
+    border-radius: 155px !important;
+    border: 10px solid transparent;
+    height: 420px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .supporting-product-description {
     font-size: 20px;
     letter-spacing: 2.5px;
@@ -535,6 +543,12 @@ a.product-button {
 .supporting-assembly-column {
     padding: 35px 60px 0px 60px !important;
     height: 200px;
+}
+
+.supporting-co-column {
+    padding: 25px 20px 0px 20px !important;
+    height: 500px;
+    text-align: center;
 }
 
 .product-description-header {
@@ -760,6 +774,10 @@ h1.speedway-is:hover {
 .header-h1.supporting-h1 {
     left: 40%;
     padding-top: 170px;
+}
+
+.co-header{
+    left: 24% !important;
 }
 
 .bold{
