@@ -28,7 +28,7 @@ var Services = React.createClass({
 
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-o">
                 <span id="surround">
-                <a href="#">
+                <a href="#contact">
                    <div className="product-expand">
                        <span id="initial">
                           <h1 className="product-header">Connect</h1>

@@ -21,19 +21,22 @@ var HomePageComponent = React.createClass({
                     </div>
 
                     <div className="cd-fixed-bg cd-bg-2">
-            		    <center>
-                            <h1>Explore Speedway</h1>
+            		    <center className="explore">
+                            <h1>
+                                <span className="glyphicon glyphicon-minus"></span> Explore Speedway<span className="glyphicon glyphicon-minus"></span>
+                            </h1>
                         </center>
                         <Services/>
-                        <center>
+                        <center className="mission">
                             <h1 className="speedway-is">Our Mission</h1>
                         </center>
             	    </div>
 
                     <div className="cd-fixed-bg cd-bg-4">
-            		<center><div className="mission-header">
+            		<center>
+                        <div className="mission-header">
                         <h1>"Satisfy Our Customers</h1>
-                        <h1>and Continuously Improve"</h1>
+                        <h1>and Continuously Improve."</h1>
                         </div>
                      </center>
             	     </div>
