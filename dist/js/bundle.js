@@ -15,18 +15,47 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
             React.createElement("div", {className: "container-fluid"}, 
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-assembly header-img supporting-header"}, 
-                        React.createElement("h1", {className: "header-h1 supporting-h1 bulk-header"}, "Light Assembly"), 
+                        React.createElement("h1", {className: "header-h1 supporting-h1 assembly-header"}, "Light Assembly"), 
                         React.createElement("center", {className: "tape-center"}, 
                             React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "From start to finish our team fits", React.createElement("br", null), "components together to make sense of your time and budget."))
                         ), 
+
                         React.createElement("div", {className: "row"}, 
-                            React.createElement("div", {className: "supporting-description"}, 
-                                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"}, 
-                                    React.createElement("p", null, "From start to finish our team fits components together to make sense of your time and budget.")
-                               ), 
-                               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"}, 
-                                   React.createElement("p", null, "From start to finish our team fits components together to make sense of your time and budget.")
+                            React.createElement("div", {className: "supporting-description assembly-descript"}, 
+                                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-left-column"}, 
+                                    React.createElement("center", {className: "supporting-center"}, 
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "As part of the light assembly service, Speedway Packaging and Distribution's vision for a job well done is based off of our standard of excellence."), 
+                                        React.createElement("p", {className: "fade-in sup-context"}, "_________________________________")
+
+                                    )
+                                ), 
+                               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column"}, 
+                                   React.createElement("center", {className: "supporting-center"}, 
+                                       React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "We work together to accomplish your goals!"), 
+                                       React.createElement("p", {className: "fade-in sup-context"}, "_________________________________")
+                                   )
                                )
+                            )
+                        ), 
+                        React.createElement("div", {className: "row dark"}, 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/assembly-white.jpg"})
+                            ), 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/assembly_2-white.jpg"})
+                            ), 
+                            React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
+                                React.createElement("img", {className: "img-responsive middle-border", src: "images/assembly3-white.jpg"})
+                            )
+                        ), 
+                        React.createElement("div", {className: "action"}, 
+                            React.createElement("div", {className: "row"}, 
+                                React.createElement("div", {className: "col-md-6 bottom-tag"}, 
+                                    "Let Speedway Packaging and Distribustion be the answer for all of your questions!"
+                                ), 
+                                React.createElement("div", {className: "col-md-6 call-button"}, 
+                                    React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call!"))
+                                )
                             )
                         ), 
 
@@ -193,6 +222,16 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                           React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 picbox2"}, 
                             React.createElement("img", {src: "http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg", alt: ""})
                           )
+                        ), 
+                        React.createElement("div", {className: "action"}, 
+                            React.createElement("div", {className: "row"}, 
+                                React.createElement("div", {className: "col-md-6 bottom-tag"}, 
+                                    "Let Speedway Packaging and Distribustion be the answer for all of your questions!"
+                                ), 
+                                React.createElement("div", {className: "col-md-6 call-button"}, 
+                                    React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call!"))
+                                )
+                            )
                         )
                 ), 
                 React.createElement(Footer, null)

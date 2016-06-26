@@ -30,6 +30,16 @@ var CopackagingComponent = React.createClass({
                             <img src="http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg" alt="" />
                           </div>
                         </div>
+                        <div className="action">
+                            <div className="row">
+                                <div className="col-md-6 bottom-tag">
+                                    Let Speedway Packaging and Distribustion be the answer for all of your questions!
+                                </div>
+                                <div className="col-md-6 call-button">
+                                    <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call!</button></a>
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 <Footer/>
             </div>

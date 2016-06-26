@@ -6168,8 +6168,9 @@ a.product-button {
   font-size: 12px; }
 
 .sup-image {
+  border-radius: 207px !important;
+  border: 10px solid transparent;
   height: 420px;
-  border-radius: 5px;
   padding-left: 45px;
   padding-right: 45px; }
 
@@ -6259,6 +6260,9 @@ h1.speedway-is:hover {
   bottom: 0;
   font-size: 13px; }
 
+.assembly-header {
+  left: 25% !important; }
+
 .col-xs-12.col-sm-12.col-md-6.col-lg-6 {
   color: #fff;
   padding-top: 20px;
@@ -6267,6 +6271,23 @@ h1.speedway-is:hover {
 .col-md-2 {
   margin: 0 auto;
   border-radius: 55px; }
+
+.col-md-4 {
+  padding: 0;
+  text-align: center; }
+
+.middle-border {
+  border: 10px solid #151515;
+  border-radius: 42px; }
+
+.dark {
+  background-color: #151515;
+  padding: 55px;
+  text-align: center; }
+
+.col-md-4 img {
+  display: inline-block;
+  height: 280px; }
 
 .footer-filler > p > a > strong {
   color: black; }
@@ -6325,6 +6346,9 @@ h1.speedway-is:hover {
 
 .left-10 {
   padding-left: 10px; }
+
+.assembly-descript {
+  height: 350px !important; }
 
 .supporting-description {
   padding: 40px 0px 40px 0px;
