@@ -14,36 +14,35 @@ var TapeComponent = React.createClass({
                 <div className="row">
                     <div className="cd-fixed-bg cd-bg-5 header-img supporting-header">
                         <center className="tape-center">
-                        <h1 className="header-h1 supporting-h1">Tape</h1>
+                            <h1 className="header-h1 supporting-h1">Tape</h1>
                         </center>
                         <center className="tape-center">
-                        <p className="product-description-header"><em>Rewinders for all types of pressure and non-pressure<br/>sensitive materials on 3 inch cores.  Turn salvage product into money!</em></p>
+                        <p className="product-description-header"><em>Just arrived: New WebTec Slitter<br/>making the highest quality BOPP packaging tape.</em></p>
                         </center>
                         <div className="row">
                         <div className="supporting-description">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-                            <video controls className="fade-in sup-context">
-                              <source  src="images/HY-BD.mp4" type="video/mp4" />
-                              Your browser does not support HTML5 video.
-                            </video>
+                            <div className="fade-in sup-context left-20">
+                              <iframe className="tape-video" src="https://www.youtube.com/embed/YjjD9dFHEWs" frameBorder="0" allowFullScreen></iframe>
+                            </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column">
-                        <center className="supporting-center">
-                            <p className="supporting-product-description fade-in sup-context">Speedway can rewind off-quality salvagable material by rewinding on all types of pressure sensitive and non-pressure sensitive materials on 3 inch cores.</p>
+                        <div className="supporting-center">
+                            <h3 className="fade-in sup-context">We Buy Distressed Tape</h3>
                             <p className="fade-in sup-context">_________________________________</p>
-                            <h3 className="bold fade-in sup-context">Some Of Our Specifics</h3>
-                            <p className="extra-letter-space fade-in sup-context">Our speed is 200m per minute, width is 1.6 M, max unwind OD is 800mm, max rewind OD for four shafts exchange is 150mm, and our max rewind OD for two shafts exchange is 280mm.</p>
-                        </center>
+                            <p className="supporting-product-description fade-in sup-context">Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
+                            <p className="supporting-product-description fade-in sup-context">Custom runs, quick turn around<br/>2” and 3” Clear or Tan; 50 yds, 100 yds, 150 yds Lenghts available<br/>waterbased Acrylic and Hot Melt Adhesive</p>
+                        </div>
                         </div>
                         </div>
                     </div>
                     <div className="action">
                         <div className="row">
-                            <div className="col-md-6 bottom-tag">
-                                Let Speedway Packaging and Distribustion be the answer for all of your questions!
+                            <div className="col-md-6 bottom-tag no-top-padding">
+                                <h2 className="project-managers">Stop wasting money<br/>and turn salvage product into profit!</h2>
                             </div>
                             <div className="col-md-6 call-button">
-                                <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call!</button></a>
+                                <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                             </div>
                         </div>
                     </div>

@@ -15,27 +15,10 @@ var AssemblyComponent = React.createClass({
                     <div className="cd-fixed-bg cd-bg-assembly header-img supporting-header">
                         <h1 className="header-h1 supporting-h1 assembly-header">Light Assembly</h1>
                         <center className="tape-center">
-                            <p className="product-description-header"><em>From start to finish our team fits<br/>components together to make sense of your time and budget.</em></p>
+                            <p className="product-description-header shadow"><em>From start to finish our team fits<br/>components together to make sense of your time and budget.</em></p>
                         </center>
 
-                        <div className="row">
-                            <div className="supporting-description assembly-descript">
-                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
-                                    <center className="supporting-center-assembly">
-                                        <p className="supporting-product-description fade-in sup-context">As part of the light assembly service, Speedway Packaging and Distribution's vision for a job well done is extended from our standard of excellence.</p>
-                                        <p className="fade-in sup-context">_________________________________</p>
-
-                                    </center>
-                                </div>
-                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
-                                   <center className="supporting-center-assembly">
-                                       <p className="supporting-product-description fade-in sup-context">Let us help you make something bigger and better.  We love working together with our customers for a common purpose, to accomplish their goals!</p>
-                                       <p className="fade-in sup-context">_________________________________</p>
-                                   </center>
-                               </div>
-                            </div>
-                        </div>
-                        <div className="row dark">
+                        <div className="row light">
                             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <img className="img-responsive middle-border" src="images/assembly-white.jpg"/>
                             </div>
@@ -46,13 +29,29 @@ var AssemblyComponent = React.createClass({
                                 <img className="img-responsive middle-border" src="images/assembly3-white.jpg"/>
                             </div>
                         </div>
-                        <div className="action">
+
+                        <div className="row">
+                            <div className="supporting-description assembly-descript">
+                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
+                                    <div className="supporting-center-assembly">
+                                        <h1 className="fade-in sup-context">No job too big, no job too small, and no deadline too short!</h1>
+                                    </div>
+                                </div>
+                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
+                                   <div className="supporting-center-assembly">
+                                       <p className="supporting-product-description fade-in sup-context top-padding-7">Let us help you make something bigger and better.  We love working together with our customers for a common purpose.  Let us accomplish your goals!</p>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div className="action assembly-action">
                             <div className="row">
-                                <div className="col-md-6 bottom-tag">
-                                    Let Speedway Packaging and Distribustion be the answer for all of your questions!
+                                <div className="col-md-6 bottom-tag no-top-padding assembly-project">
+                                    <h2 className="project-managers">Project Managers standing by now to discuss your needs. Call, text or email for pricing!</h2>
                                 </div>
                                 <div className="col-md-6 call-button">
-                                    <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call!</button></a>
+                                    <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                                 </div>
                             </div>
                         </div>

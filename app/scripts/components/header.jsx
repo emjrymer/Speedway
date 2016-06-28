@@ -22,7 +22,7 @@ var Header = React.createClass({
                <li><a href="#assembly">Assembly</a></li>
                <li><a href="#copackaging">Co Packaging</a></li>
                <li><a href="#pl">3PL</a></li>
-               <li><a href="tel:864-271-1149">864-271-1149</a></li>
+               <li><small className="left-6">Give Us A Call</small><br/><a href="tel:864-271-1149">864-271-1149</a></li>
              </ul>
         </header>
     );

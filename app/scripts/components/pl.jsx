@@ -22,20 +22,20 @@ var PlComponent = React.createClass({
                             <div className="supporting-description assembly-descript">
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
                                     <center className="supporting-center-assembly">
-                                        <p className="supporting-product-description fade-in sup-context">Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.</p>
+                                        <p className="supporting-product-description fade-in sup-context no-top-padding">Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.</p>
                                         <p className="fade-in sup-context">_________________________________</p>
 
                                     </center>
                                 </div>
                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
                                    <center className="supporting-center-assembly">
-                                       <p className="supporting-product-description fade-in sup-context">Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency.</p>
+                                       <p className="supporting-product-description fade-in sup-context no-top-padding">Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency.</p>
                                        <p className="fade-in sup-context">_________________________________</p>
                                    </center>
                                </div>
                             </div>
                         </div>
-                        <div className="row dark">
+                        <div className="row light">
                             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <img className="img-responsive middle-border" src="images/3pl-person-cropped-white.jpg"/>
                             </div>
@@ -48,11 +48,11 @@ var PlComponent = React.createClass({
                         </div>
                         <div className="action">
                             <div className="row">
-                                <div className="col-md-6 bottom-tag">
-                                    Let Speedway Packaging and Distribustion be the answer for all of your questions!
+                                <div className="col-md-6 bottom-tag no-top-padding">
+                                    <h2 className="project-managers">Let Speedway Packaging and Distribustion be the answer for all of your questions!</h2>
                                 </div>
                                 <div className="col-md-6 call-button">
-                                    <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call!</button></a>
+                                    <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                                 </div>
                             </div>
                         </div>
