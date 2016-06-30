@@ -493,12 +493,12 @@ var Services = React.createClass({displayName: "Services",
                     React.createElement("div", {className: "product-expand"}, 
                     React.createElement("span", {id: "initial"}, 
                        React.createElement("h1", {className: "product-header"}, "Tape"), 
-                       React.createElement("p", {className: "product-description"}, "Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money."), 
+                       React.createElement("p", {className: "product-description"}, "Just arrived", React.createElement("br", null), "New WebTec Slitter making the highest quality BOPP packaging tape."), 
                        React.createElement("img", {src: "images/tape-icon-white.png"})
                    ), 
                    React.createElement("span", {id: "onhover"}, 
                        React.createElement("h1", {className: "product-header"}, "Tape"), 
-                       React.createElement("p", {className: "product-description"}, "Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money."), 
+                       React.createElement("p", {className: "product-description"}, "Just arrived", React.createElement("br", null), "New WebTec Slitter making the highest quality BOPP packaging tape."), 
                        React.createElement("img", {src: "images/tape-icon.png"})
                        )
                     )

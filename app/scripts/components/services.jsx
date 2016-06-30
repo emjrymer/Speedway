@@ -13,12 +13,12 @@ var Services = React.createClass({
                     <div className="product-expand">
                     <span id="initial">
                        <h1 className="product-header">Tape</h1>
-                       <p className="product-description">Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money.</p>
+                       <p className="product-description">Just arrived<br/>New WebTec Slitter making the highest quality BOPP packaging tape.</p>
                        <img src="images/tape-icon-white.png"/>
                    </span>
                    <span id="onhover">
                        <h1 className="product-header">Tape</h1>
-                       <p className="product-description">Rewinders for all types of pressure and non-pressure sensitive materials on 3 inch cores, turn salvage product into money.</p>
+                       <p className="product-description">Just arrived<br/>New WebTec Slitter making the highest quality BOPP packaging tape.</p>
                        <img src="images/tape-icon.png"/>
                        </span>
                     </div>
