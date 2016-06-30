@@ -6260,6 +6260,9 @@ h1.speedway-is:hover {
   text-align: left;
   line-height: 43px; }
 
+.tape-call-button {
+  padding-top: 10px !important; }
+
 .call-button {
   padding-top: 5px; }
   .call-button button {
@@ -6398,12 +6401,25 @@ h1.fade-in.sup-context {
 .project-managers {
   font-weight: 100; }
 
+.tape-action {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.tape-action-container {
+  height: 200px; }
+
 .bulk-project {
   padding-left: 5px !important;
   padding-right: 36px !important; }
 
 .no-top-padding {
   padding-top: 0px !important; }
+
+.margin-top-6 {
+  margin-top: 6px !important; }
+
+.no-padding-bottom {
+  padding-bottom: 0px !important; }
 
 .assembly-project {
   padding-left: 38px !important;

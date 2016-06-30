@@ -639,6 +639,10 @@ h1.speedway-is:hover {
     line-height: 43px;
 }
 
+.tape-call-button {
+    padding-top: 10px !important;
+}
+
 .call-button {
     padding-top: 5px;
     button {
@@ -834,6 +838,15 @@ h1.fade-in.sup-context {
     font-weight: 100;
 }
 
+.tape-action {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tape-action-container {
+    height: 200px;
+}
+
 .bulk-project {
     padding-left: 5px !important;
     padding-right: 36px !important;
@@ -841,6 +854,14 @@ h1.fade-in.sup-context {
 
 .no-top-padding {
     padding-top: 0px !important;
+}
+
+.margin-top-6 {
+    margin-top: 6px !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px !important;
 }
 
 .assembly-project {

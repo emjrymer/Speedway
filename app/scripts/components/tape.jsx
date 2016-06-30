@@ -26,22 +26,21 @@ var TapeComponent = React.createClass({
                               <iframe className="tape-video" src="https://www.youtube.com/embed/YjjD9dFHEWs" frameBorder="0" allowFullScreen></iframe>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column">
-                        <div className="supporting-center">
-                            <h3 className="fade-in sup-context">We Buy Distressed Tape</h3>
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom">
+                        <div className="no-padding-bottom supporting-center">
+                            <h3 className="fade-in sup-context margin-top-6">Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications.</h3>
                             <p className="fade-in sup-context">_________________________________</p>
-                            <p className="supporting-product-description fade-in sup-context">Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
-                            <p className="supporting-product-description fade-in sup-context">Custom runs, quick turn around<br/>2” and 3” Clear or Tan; 50 yds, 100 yds, 150 yds Lenghts available<br/>waterbased Acrylic and Hot Melt Adhesive</p>
+                            <p className="supporting-product-description fade-in sup-context">Custom runs, quick turn around<br/>2” and 3” Clear or Tan<br/>50 yds, 100 yds, 150 yds Lenghts available<br/>Waterbased Acrylic and Hot Melt Adhesive<br/>Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
                         </div>
                         </div>
                         </div>
                     </div>
-                    <div className="action">
+                    <div className="action tape-action-container">
                         <div className="row">
                             <div className="col-md-6 bottom-tag no-top-padding">
-                                <h2 className="project-managers">Stop wasting money<br/>and turn salvage product into profit!</h2>
+                                <h2 className="project-managers tape-action">Exceed customer’s expectations with high quality BOPP acrylic and hotmelt packaging tape made to your custom specifications today.</h2>
                             </div>
-                            <div className="col-md-6 call-button">
+                            <div className="col-md-6 call-button tape-call-button">
                                 <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                             </div>
                         </div>

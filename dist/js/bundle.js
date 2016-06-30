@@ -634,22 +634,21 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                               React.createElement("iframe", {className: "tape-video", src: "https://www.youtube.com/embed/YjjD9dFHEWs", frameBorder: "0", allowFullScreen: true})
                             )
                         ), 
-                        React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column"}, 
-                        React.createElement("div", {className: "supporting-center"}, 
-                            React.createElement("h3", {className: "fade-in sup-context"}, "We Buy Distressed Tape"), 
+                        React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom"}, 
+                        React.createElement("div", {className: "no-padding-bottom supporting-center"}, 
+                            React.createElement("h3", {className: "fade-in sup-context margin-top-6"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
                             React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
-                            React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details"), 
-                            React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan; 50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "waterbased Acrylic and Hot Melt Adhesive")
+                            React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
                         )
                         )
                         )
                     ), 
-                    React.createElement("div", {className: "action"}, 
+                    React.createElement("div", {className: "action tape-action-container"}, 
                         React.createElement("div", {className: "row"}, 
                             React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
-                                React.createElement("h2", {className: "project-managers"}, "Stop wasting money", React.createElement("br", null), "and turn salvage product into profit!")
+                                React.createElement("h2", {className: "project-managers tape-action"}, "Exceed customer’s expectations with high quality BOPP acrylic and hotmelt packaging tape made to your custom specifications today.")
                             ), 
-                            React.createElement("div", {className: "col-md-6 call-button"}, 
+                            React.createElement("div", {className: "col-md-6 call-button tape-call-button"}, 
                                 React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
                             )
                         )
