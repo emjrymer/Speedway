@@ -14,7 +14,7 @@ var appContainer = document.getElementById('app');
 
 var Router = Backbone.Router.extend({
   routes:{
-    'home-contact-us-greer-sc':'index',
+    '':'index',
     'tape-rewinders-speedway-packaging-greer-sc':'tape',
     'bulk-plastic-dry-services-speedway-greer-sc':'bulk',
     'assembly-speedway-packaging-distribution-greer-sc':'assembly',

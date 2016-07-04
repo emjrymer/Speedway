@@ -326,7 +326,7 @@ var Header = React.createClass({displayName: "Header",
             React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
                 React.createElement("div", {className: "holder"}, 
                     React.createElement("div", {className: "logoHolder"}, 
-                        React.createElement("a", {href: "#home-contact-us-greer-sc", title: "Speedway | Packaging and Distribution"}, 
+                        React.createElement("a", {href: "/", title: "Speedway | Packaging and Distribution"}, 
                             React.createElement("img", {height: "75px", src: "images/speedway-logo-transparent.png", alt: "Speedway Packaging and Distribution", "data-pin-nopin": "true"})
                         )
                     )
@@ -691,7 +691,7 @@ var appContainer = document.getElementById('app');
 
 var Router = Backbone.Router.extend({
   routes:{
-    'home-contact-us-greer-sc':'index',
+    '':'index',
     'tape-rewinders-speedway-packaging-greer-sc':'tape',
     'bulk-plastic-dry-services-speedway-greer-sc':'bulk',
     'assembly-speedway-packaging-distribution-greer-sc':'assembly',
