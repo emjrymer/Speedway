@@ -41,7 +41,7 @@ var BulkComponent = React.createClass({
                                     <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                                 </div>
                                 <div className="col-md-6 bottom-tag no-top-padding bulk-project">
-                                    <h2 className="project-managers">Let Speedway Packaging and Distribustion be the answer for all of your questions!</h2>
+                                    <h2 className="project-managers">Let Speedway Packaging and Distribution be the answer for all of your questions!</h2>
                                 </div>
                             </div>
                         </div>

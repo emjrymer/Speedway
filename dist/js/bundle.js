@@ -116,7 +116,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
                                 ), 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding bulk-project"}, 
-                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribustion be the answer for all of your questions!")
+                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
                                 )
                             )
                         ), 
