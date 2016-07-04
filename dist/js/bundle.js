@@ -482,6 +482,15 @@ var Services = React.createClass({displayName: "Services",
         return (
             React.createElement("div", {className: "row"}, 
 
+                React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-call"}, 
+                    React.createElement("a", {href: "#"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header black-text"}, "Speedway"), 
+                           React.createElement("p", {className: "product-description black-text"}, React.createElement("small", {className: "black-text"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {className: "black-text", href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    )
+                ), 
+
                 React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-t"}, 
                     React.createElement("span", {id: "surround"}, 
                     React.createElement("a", {href: "#tape-rewinders-speedway-packaging-greer-sc"}, 

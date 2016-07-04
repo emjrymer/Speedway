@@ -334,6 +334,17 @@ border-right: none;
     font-weight: bolder;
 }
 
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-call {
+    display: none !important;
+    height: 150px;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.black-text {
+    color: black !important;
+}
+
 .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
     background-image: url("../images/Tape-blur-3-shade-40.png");
     transition: background-image 1s;
@@ -1450,12 +1461,20 @@ animation-delay: 0.7s;
 
 
 @media (max-device-width : 320px) {
+    .col-xs-12.col-sm-6.col-lg-4.product-button.sr-call {
+        display: block !important;
+    }
+
+    header {
+        visibility: hidden !important;
+    }
+
     .header-img {
         visibility: hidden !important;
     }
 
     .explore {
-        visibility: hidden !important;
+        display: none;
     }
 
     .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
@@ -1463,15 +1482,19 @@ animation-delay: 0.7s;
     }
 
     .mission {
-        visibility: hidden !important;
+        display: none;
     }
 
     .cd-fixed-bg.cd-bg-4 {
-        visibility: hidden !important;
+        display: none;
     }
 
     #head {
         visibility: hidden !important;
+    }
+
+    .list-inline {
+        display: none;
     }
 
     center {

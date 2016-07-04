@@ -6055,6 +6055,15 @@ a address {
   color: black;
   font-weight: bolder; }
 
+.col-xs-12.col-sm-6.col-lg-4.product-button.sr-call {
+  display: none !important;
+  height: 150px;
+  text-align: center;
+  padding-top: 0.5em; }
+
+.black-text {
+  color: black !important; }
+
 .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
   background-image: url("../images/Tape-blur-3-shade-40.png");
   transition: background-image 1s;
@@ -6904,23 +6913,32 @@ form > div {
     max-width: 100%;
     margin-left: 85%; } }
 @media (max-device-width: 320px) {
+  .col-xs-12.col-sm-6.col-lg-4.product-button.sr-call {
+    display: block !important; }
+
+  header {
+    visibility: hidden !important; }
+
   .header-img {
     visibility: hidden !important; }
 
   .explore {
-    visibility: hidden !important; }
+    display: none; }
 
   .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
     margin-top: 0px !important; }
 
   .mission {
-    visibility: hidden !important; }
+    display: none; }
 
   .cd-fixed-bg.cd-bg-4 {
-    visibility: hidden !important; }
+    display: none; }
 
   #head {
     visibility: hidden !important; }
+
+  .list-inline {
+    display: none; }
 
   center {
     height: 60px !important; }

@@ -7,6 +7,15 @@ var Services = React.createClass({
         return (
             <div className="row">
 
+                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-call">
+                    <a href="#">
+                        <div className="product-expand">
+                           <h1 className="product-header black-text">Speedway</h1>
+                           <p className="product-description black-text"><small className="black-text">Give Us A Call</small><br/><a className="black-text" href="tel:864-271-1149">864-271-1149</a></p>
+                        </div>
+                    </a>
+                </div>
+
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-t">
                     <span id="surround">
                     <a href="#tape-rewinders-speedway-packaging-greer-sc">
