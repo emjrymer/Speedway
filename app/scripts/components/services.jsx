@@ -9,7 +9,7 @@ var Services = React.createClass({
 
                 <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-t">
                     <span id="surround">
-                    <a href="#tape">
+                    <a href="#tape-rewinders-speedway-packaging-greer-sc">
                     <div className="product-expand">
                     <span id="initial">
                        <h1 className="product-header">Tape</h1>
@@ -46,7 +46,7 @@ var Services = React.createClass({
                </div>
                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-b">
                    <span id="surround">
-                   <a href="#bulk">
+                   <a href="#bulk-plastic-dry-services-speedway-greer-sc">
                    <div className="product-expand">
                        <span id="initial">
                            <h1 className="product-header">Plastic Dry Bulk Services</h1>
@@ -64,7 +64,7 @@ var Services = React.createClass({
               </div>
                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-i">
                    <span id="surround">
-                   <a href="#assembly">
+                   <a href="#assembly-speedway-packaging-distribution-greer-sc">
                        <div className="product-expand">
                        <span id="initial">
                            <h1 className="product-header">Light Assembly</h1>
@@ -82,7 +82,7 @@ var Services = React.createClass({
                </div>
                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-c">
                    <span id="surround">
-                   <a href="#copackaging">
+                   <a href="#copackaging-speedway-packaging-distribution-manufacturing-greer-sc">
                    <div className="product-expand">
                        <span id="initial">
                            <h1 className="product-header">Co Packaging</h1>
@@ -100,7 +100,7 @@ var Services = React.createClass({
                </div>
            <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-3">
                <span id="surround">
-               <a href="#pl">
+               <a href="#3pl-speedway-packaging-distribution-manufacturing-greer-sc">
                <div className="product-expand">
                <span id="initial">
                    <h1 className="product-header">3PL</h1>

@@ -7,7 +7,7 @@ var Footer = React.createClass({
   render: function(){
     return (
       <div className='footer'>
-          <div className="row negative-margin">
+          <div className="row">
             <div className="footer-background">
                 <div className="row footer-wrapper">
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="contact">

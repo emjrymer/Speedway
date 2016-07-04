@@ -6903,7 +6903,38 @@ form > div {
   .logoHolder a img {
     max-width: 100%;
     margin-left: 85%; } }
-/* iPhone 4 and 4S (portrait and landscape) ----------- */
+@media (max-device-width: 320px) {
+  .header-img {
+    visibility: hidden !important; }
+
+  .explore {
+    visibility: hidden !important; }
+
+  .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
+    margin-top: 0px !important; }
+
+  .mission {
+    visibility: hidden !important; }
+
+  .cd-fixed-bg.cd-bg-4 {
+    visibility: hidden !important; }
+
+  #head {
+    visibility: hidden !important; }
+
+  center {
+    height: 60px !important; }
+
+  iframe {
+    height: 250px !important;
+    width: inherit; }
+
+  .footer-background {
+    height: 860px;
+    padding-top: 20px; }
+
+  #contact h4 {
+    margin-left: 5%; } }
 @media (max-width: 768px) {
   #head {
     max-width: 100%;
