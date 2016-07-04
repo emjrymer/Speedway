@@ -213,7 +213,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                             React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "Manufacturing and packaging shelf-ready", React.createElement("br", null), "*products* bringing convience and quality to your business."))
                         ), 
                         React.createElement("div", {className: "row"}, 
-                            React.createElement("div", {className: "co-supporting-description"}, 
+                            React.createElement("div", {className: "co-supporting-description fade-in"}, 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column-1"}, 
                                     React.createElement("center", {className: "supporting-center-co"}, 
                                         React.createElement("h2", {className: "supporting-product-description fade-in sup-context"}, "Our experience, abilities, industry connections, and production quality make everything easier for our customers."), 
@@ -323,23 +323,23 @@ var Header = React.createClass({displayName: "Header",
   render: function(){
     return (
         React.createElement("div", {className: "row"}, 
-        React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
-            React.createElement("div", {className: "holder"}, 
-                React.createElement("div", {className: "logoHolder"}, 
-                    React.createElement("a", {href: "#", title: "Speedway | Packaging and Distribution"}, 
-                        React.createElement("img", {height: "75px", src: "images/speedway-logo-transparent.png", alt: "Speedway Packaging and Distribution", "data-pin-nopin": "true"})
+            React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
+                React.createElement("div", {className: "holder"}, 
+                    React.createElement("div", {className: "logoHolder"}, 
+                        React.createElement("a", {href: "#home-contact-us-greer-sc", title: "Speedway | Packaging and Distribution"}, 
+                            React.createElement("img", {height: "75px", src: "images/speedway-logo-transparent.png", alt: "Speedway Packaging and Distribution", "data-pin-nopin": "true"})
+                        )
                     )
-                )
-            ), 
-            React.createElement("ul", {className: "list-inline"}, 
-               React.createElement("li", null, React.createElement("a", {href: "#tape"}, "Tape")), 
-               React.createElement("li", null, React.createElement("a", {href: "#bulk"}, "Bulk")), 
-               React.createElement("li", null, React.createElement("a", {href: "#assembly"}, "Assembly")), 
-               React.createElement("li", null, React.createElement("a", {href: "#copackaging"}, "Co Packaging")), 
-               React.createElement("li", null, React.createElement("a", {href: "#pl"}, "3PL")), 
-               React.createElement("li", null, React.createElement("small", {className: "left-6"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
-             )
-        )
+                ), 
+                React.createElement("ul", {className: "list-inline"}, 
+                   React.createElement("li", null, React.createElement("a", {href: "#tape-rewinders-speedway-packaging-greer-sc"}, "Tape")), 
+                   React.createElement("li", null, React.createElement("a", {href: "#bulk-plastic-dry-services-speedway-greer-sc"}, "Bulk")), 
+                   React.createElement("li", null, React.createElement("a", {href: "#assembly-speedway-packaging-distribution-greer-sc"}, "Assembly")), 
+                   React.createElement("li", null, React.createElement("a", {href: "#copackaging-speedway-packaging-distribution-manufacturing-greer-sc"}, "Co Packaging")), 
+                   React.createElement("li", null, React.createElement("a", {href: "#3pl-speedway-packaging-distribution-manufacturing-greer-sc"}, "3PL")), 
+                   React.createElement("li", null, React.createElement("small", {className: "left-6"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                 )
+            )
         )
     );
   }
@@ -691,12 +691,12 @@ var appContainer = document.getElementById('app');
 
 var Router = Backbone.Router.extend({
   routes:{
-    '':'index',
-    'tape':'tape',
-    'bulk':'bulk',
-    'assembly':'assembly',
-    'copackaging':'copackaging',
-    'pl':'pl'
+    'home-contact-us-greer-sc':'index',
+    'tape-rewinders-speedway-packaging-greer-sc':'tape',
+    'bulk-plastic-dry-services-speedway-greer-sc':'bulk',
+    'assembly-speedway-packaging-distribution-greer-sc':'assembly',
+    'copackaging-speedway-packaging-distribution-manufacturing-greer-sc':'copackaging',
+    '3pl-speedway-packaging-distribution-manufacturing-greer-sc':'pl'
   },
 
   index: function(){

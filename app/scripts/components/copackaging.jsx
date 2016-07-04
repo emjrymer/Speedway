@@ -20,7 +20,7 @@ var CopackagingComponent = React.createClass({
                             <p className="product-description-header"><em>Manufacturing and packaging shelf-ready<br/>*products* bringing convience and quality to your business.</em></p>
                         </center>
                         <div className="row">
-                            <div className="co-supporting-description">
+                            <div className="co-supporting-description fade-in">
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column-1">
                                     <center className="supporting-center-co">
                                         <h2 className="supporting-product-description fade-in sup-context">Our experience, abilities, industry connections, and production quality make everything easier for our customers.</h2>

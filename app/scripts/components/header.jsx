@@ -8,23 +8,23 @@ var Header = React.createClass({
   render: function(){
     return (
         <div className='row'>
-        <header className="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="head">
-            <div className="holder">
-                <div className="logoHolder">
-                    <a href="#" title="Speedway | Packaging and Distribution">
-                        <img height="75px" src="images/speedway-logo-transparent.png" alt="Speedway Packaging and Distribution" data-pin-nopin="true"></img>
-                    </a>
+            <header className="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="head">
+                <div className="holder">
+                    <div className="logoHolder">
+                        <a href="#home-contact-us-greer-sc" title="Speedway | Packaging and Distribution">
+                            <img height="75px" src="images/speedway-logo-transparent.png" alt="Speedway Packaging and Distribution" data-pin-nopin="true"></img>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <ul className="list-inline">
-               <li><a href="#tape">Tape</a></li>
-               <li><a href="#bulk">Bulk</a></li>
-               <li><a href="#assembly">Assembly</a></li>
-               <li><a href="#copackaging">Co Packaging</a></li>
-               <li><a href="#pl">3PL</a></li>
-               <li><small className="left-6">Give Us A Call</small><br/><a href="tel:864-271-1149">864-271-1149</a></li>
-             </ul>
-        </header>
+                <ul className="list-inline">
+                   <li><a href="#tape-rewinders-speedway-packaging-greer-sc">Tape</a></li>
+                   <li><a href="#bulk-plastic-dry-services-speedway-greer-sc">Bulk</a></li>
+                   <li><a href="#assembly-speedway-packaging-distribution-greer-sc">Assembly</a></li>
+                   <li><a href="#copackaging-speedway-packaging-distribution-manufacturing-greer-sc">Co Packaging</a></li>
+                   <li><a href="#3pl-speedway-packaging-distribution-manufacturing-greer-sc">3PL</a></li>
+                   <li><small className="left-6">Give Us A Call</small><br/><a href="tel:864-271-1149">864-271-1149</a></li>
+                 </ul>
+            </header>
         </div>
     );
   }

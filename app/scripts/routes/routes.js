@@ -14,12 +14,12 @@ var appContainer = document.getElementById('app');
 
 var Router = Backbone.Router.extend({
   routes:{
-    '':'index',
-    'tape':'tape',
-    'bulk':'bulk',
-    'assembly':'assembly',
-    'copackaging':'copackaging',
-    'pl':'pl'
+    'home-contact-us-greer-sc':'index',
+    'tape-rewinders-speedway-packaging-greer-sc':'tape',
+    'bulk-plastic-dry-services-speedway-greer-sc':'bulk',
+    'assembly-speedway-packaging-distribution-greer-sc':'assembly',
+    'copackaging-speedway-packaging-distribution-manufacturing-greer-sc':'copackaging',
+    '3pl-speedway-packaging-distribution-manufacturing-greer-sc':'pl'
   },
 
   index: function(){
