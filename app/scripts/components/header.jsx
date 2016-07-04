@@ -7,7 +7,7 @@ var Backbone = require('backbone');
 var Header = React.createClass({
   render: function(){
     return (
-
+        <div className='row'>
         <header className="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="head">
             <div className="holder">
                 <div className="logoHolder">
@@ -25,6 +25,7 @@ var Header = React.createClass({
                <li><small className="left-6">Give Us A Call</small><br/><a href="tel:864-271-1149">864-271-1149</a></li>
              </ul>
         </header>
+        </div>
     );
   }
 });

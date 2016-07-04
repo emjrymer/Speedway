@@ -38,8 +38,8 @@ var Footer = React.createClass({
                             <button type="submit" className="btn btn-default submit-button">Submit</button>
                         </form>
                     </div>
-                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.168077022532!2d-82.2420914!3d34.8677333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1466726640614" width="100%" height="318" frameBorder="0" allowFullScreen></iframe>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-left-right-20">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391758.30044883396!2d-82.58886075554875!3d34.9278619388954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1467427258002" width="100%" height="318" frameBorder="0"allowFullScreen></iframe>
                     </div>
                   </div>
                 <div className="copyright cr-second">

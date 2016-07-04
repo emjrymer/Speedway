@@ -49,6 +49,11 @@ body {
     color: black;
 }
 
+.padding-left-right-20 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
 .list-inline {
     float: right;
     vertical-align: middle;
@@ -97,8 +102,8 @@ h1 {
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/forkliftandpeople.png");
   background-size: 100%;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .cd-fixed-bg.cd-bg-5.header-img.supporting-header {
@@ -119,8 +124,8 @@ h1 {
 .img-overlay {
     content:"";
     position: absolute;
-    height:520px;
-    top:115px;
+    height:475px;
+    top:100px;
     left:0.05px;
     bottom:0px;
     right:0.05px;
@@ -150,7 +155,7 @@ h1 {
     min-height: 50%;
     background-size: 100%;
     background-color: #155131;
-    margin: 0 -15px 0 -15px;
+    margin: 0 0px 0 0px;
 }
 
 .cd-fixed-bg.cd-bg-5 {
@@ -167,8 +172,8 @@ h1 {
 // }
 
 .negative-margin {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .cd-fixed-bg.cd-bg-bulk {
@@ -214,7 +219,7 @@ h1 {
 }
 
 .bulk-header {
-    left: 9% !important;
+    left: 5% !important;
     padding-top: 160px !important;
 }
 
@@ -229,7 +234,7 @@ a address {
 
 #head {
   width: 100%;
-  height: 115px;
+  // height: 115px;
   float: left;
   position: fixed;
   top: 0;
@@ -347,7 +352,7 @@ border-right: none;
 center {
     padding-top: 70px;
     padding-bottom: 60px;
-    margin: 0 -15px 0 -15px;
+    margin: 0 0px 0 0px;
     background-color: #155131;
 }
 
@@ -424,7 +429,7 @@ center > h1 {
     text-align: center;
     padding-top: 2em;
     background-position: center bottom;
-    zoom: -15;
+    zoom: 1;
 }
 
 .col-xs-12.col-sm-6.col-lg-4.product-button.sr-c:hover {
@@ -540,10 +545,10 @@ a.product-button {
 }
 
 .supporting-product-description {
-    padding-top: 30px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 1.65em;
     letter-spacing: 1px;
-    line-height: 35px;
+    line-height: 30px;
     text-transform: none;
     font-weight: 100;
 }
@@ -556,12 +561,21 @@ h3, .h3 {
 }
 
 .supporting-left-column {
-    padding: 35px 60px 0px 60px !important;
+    padding: 25px 30px 0px 30px !important;
+}
+
+.larger-font {
+    font-size: 2.495em;
 }
 
 .supporting-assembly-column {
-    padding: 35px 60px 0px 60px !important;
+    padding: 5px 60px 0px 60px !important;
     height: 200px;
+}
+
+.supporting-pl-column {
+    padding: 5px 60px 0 60px !important;
+    font-size: 1.5em;
 }
 
 .supporting-co-column {
@@ -605,19 +619,19 @@ h3, .h3 {
 // }
 
 iframe {
-    height: 295px;
-    width: 585px;
+    height: 300px;
+    width: 540px;
 }
 
 .tape-video {
-    width: 600px !important;
-    height: 415px !important;
+    width: 550px !important;
+    height: 400px !important;
 }
 
 .speedway-is {
     border: 2px solid #fff;
     border-radius: 55px;
-    margin: 0 -15px 0 -15px;
+    margin: 0px;
     padding-bottom: 25px;
     background-color: #155131;
     color: #fff;
@@ -686,6 +700,11 @@ h1.fade-in.sup-context {
 .assembly-action {
     padding-left: 0px !important;
     padding-right: 0px !important;
+    height: 210px !important;
+}
+
+.a-call {
+    padding-top: 10px !important;
 }
 
 .footer-background {
@@ -703,8 +722,8 @@ h1.fade-in.sup-context {
 .footer {
     height: auto;
     // padding-top: 2em;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
     bottom: 0;
     font-size: 13px;
     // background-color: #ddd;
@@ -749,7 +768,7 @@ h1.fade-in.sup-context {
 
 .light {
     background-color: #fff;
-    padding: 55px;
+    padding: 55px 0 55px 0;
     text-align: center;
 }
 
@@ -817,6 +836,11 @@ h1.fade-in.sup-context {
 
 .second-row {
     font-size: 80px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .tape-center {
@@ -890,9 +914,23 @@ h1.fade-in.sup-context {
     height: 300px !important;
 }
 
+.padding-top-25 {
+    padding-top: 25px !important;
+}
+
+.pl-descript {
+    height: 350px !important;
+}
+
 .supporting-description {
     padding: 40px 0px 40px 0px;
-    height: 550px;
+    height: 37.2em;
+    background-color: #155131;
+}
+
+.co-supporting-description {
+    padding: 20px 0px 40px 0px;
+    height: 37.2em;
     background-color: #155131;
 }
 
@@ -900,6 +938,16 @@ h1.fade-in.sup-context {
     padding-top: 0px;
     padding-bottom: 60px;
     text-align: left;
+}
+
+.supporting-center-co {
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 .supporting-center-assembly {
@@ -920,13 +968,13 @@ h1.fade-in.sup-context {
     font-family: 'Open Sans', sans-serif;
     text-shadow: 3px 3px #110a66;
     color: #f5f5f5;
-    padding-top: 295px;
+    padding-top: 270px;
     font-size: 80px;
     font-weight: bolder;
     z-index: 100;
     position: absolute;
     top:0;
-    left:175px;
+    left:165px;
 }
 
 .tape-header  {
@@ -958,10 +1006,10 @@ h1.fade-in.sup-context {
     transition: all 0.5s ease-out;
     width: 100%;
     height: 200px;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
     h1 {
-        font-size: 70px;
+        font-size: 65px;
         margin-bottom: 0px;
         padding-top: 0px;
         font-weight: bold;
@@ -991,11 +1039,13 @@ a address:hover{
   -webkit-background-size: cover;
   background-attachment: fixed;
   background-size: cover;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
   // background-image: url("http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg");
-  height: 635px;
+  height: 575px;
   color: black;
   text-transform: uppercase;
-  padding-top: 115px;
+  padding-top: 105px;
   a {
     text-decoration: none;
     color: #fff;
@@ -1215,7 +1265,7 @@ form > div {
     padding-top: 10px;
     padding-bottom: 20px;
     color: #fff;
-    padding-left: 65px;
+    padding-left: 30px;
     label {
         color: #fff;
         text-align: left
@@ -1293,248 +1343,252 @@ animation-delay: 0.7s;
     }
 }
 
-// @media (max-width: 1119px) {
-//     .list-inline > li {
-//         font-size: 17px;
-//     }
-//     .list-inline {
-//         padding-top: 4%;
-//     }
-//     .list-inline > li > a {
-//         font-size: 20px;
-//         padding: 0;
-//     }
-//     .logoHolder a img {
-//         max-width: 85%;
-//     }
-//     .header-h1 {
-//         left: 100px;
-//     }
-//     p.product-description {
-//         padding-left: 10px;
-//         padding-right: 10px;
-//         font-size: 14px;
-//     }
-//     .InputName {
-//         width: 100%;
-//     }
-//     .InputCompany {
-//         width: 100%;
-//         margin-left: 0;
-//     }
-//     .InputEmail {
-//         width: 100%;
-//     }
-//     .InputPhone {
-//         width: 100%;
-//         margin-left: 0;
-//     }
-//     .InputMessage {
-//         width: 100%;
-//     }
-//     #contact label {
-//         margin: 0;
-//         font-size: 14px;
-//     }
-//     .footer-background {
-//         height: 550px;
-//     }
-//     iframe {
-//         height: 481px;
-//     }
-// }
-//
-// @media (max-width: 1046px) {
-//     .list-inline > li {
-//         font-size: 14px;
-//     }
-//     .list-inline {
-//         padding-top: 4%;
-//     }
-//
-//     .logoHolder a img {
-//         max-width: 75%;
-//     }
-// }
-//
-// @media (max-width: 975px) {
-//     .list-inline {
-//         visibility: hidden;
-//     }
-//
-//     .list-inline > li:last-child {
-//         visibility: visible;
-//         font-size: 20px;
-//         position: absolute;
-//         top: 4.1em;
-//         left: 38%;
-//     }
-//
-//     .logoHolder a img {
-//         max-width: 100%;
-//         margin-left: 85%;
-//     }
-// }
-//
-// @media (max-width: 775px) {
-//     .list-inline {
-//         visibility: hidden;
-//     }
-//
-//     .list-inline > li:last-child {
-//         visibility: visible;
-//         font-size: 20px;
-//         position: absolute;
-//         top: 4.1em;
-//         left: 38%;
-//     }
-//
-//     .logoHolder a img {
-//         max-width: 100%;
-//         margin-left: 85%;
-//     }
-// }
+
+// media queries
+
+@media (max-width: 1119px) {
+    .list-inline > li {
+        font-size: 17px;
+    }
+    .list-inline {
+        padding-top: 4%;
+    }
+    .list-inline > li > a {
+        font-size: 20px;
+        padding: 0;
+    }
+    .logoHolder a img {
+        max-width: 85%;
+    }
+    .header-h1 {
+        left: 100px;
+    }
+    p.product-description {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .InputName {
+        width: 100%;
+    }
+    .InputCompany {
+        width: 100%;
+        margin-left: 0;
+    }
+    .InputEmail {
+        width: 100%;
+    }
+    .InputPhone {
+        width: 100%;
+        margin-left: 0;
+    }
+    .InputMessage {
+        width: 100%;
+    }
+    #contact label {
+        margin: 0;
+        font-size: 14px;
+    }
+    .footer-background {
+        height: 550px;
+    }
+    iframe {
+        height: 481px;
+    }
+}
+
+@media (max-width: 1046px) {
+    .list-inline > li {
+        font-size: 14px;
+    }
+    .list-inline {
+        padding-top: 4%;
+    }
+
+    .logoHolder a img {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 975px) {
+    .list-inline {
+        visibility: hidden;
+    }
+
+    .list-inline > li:last-child {
+        visibility: visible;
+        font-size: 20px;
+        position: absolute;
+        top: 4.1em;
+        left: 38%;
+    }
+
+    .logoHolder a img {
+        max-width: 100%;
+        margin-left: 85%;
+    }
+}
+
+@media (max-width: 775px) {
+    .list-inline {
+        visibility: hidden;
+    }
+
+    .list-inline > li:last-child {
+        visibility: visible;
+        font-size: 20px;
+        position: absolute;
+        top: 4.1em;
+        left: 38%;
+    }
+
+    .logoHolder a img {
+        max-width: 100%;
+        margin-left: 85%;
+    }
+}
 
 
-// /* iPhone 4 and 4S (portrait and landscape) ----------- */
-// @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-// @media (max-width: 768px) {
-//     #head {
-//         max-width: 100%;
-//         width:100%;
-//         // transform:translateX(-50%);
-//     }
+/* iPhone 4 and 4S (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){}
+
+@media (max-width: 768px) {
+    #head {
+        max-width: 100%;
+        width:100%;
+        // transform:translateX(-50%);
+    }
+
+    .logoHolder a {
+        padding: 0 0 0 0.4em;
+    }
+
+    .InputName {
+        width: 100%;
+    }
+
+    center {
+        height: 0px;
+    }
+
+    center > h1 {
+        visibility: hidden;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .cd-fixed-bg.cd-bg-1.header-img {
+        visibility: hidden;
+        min-height: 0%;
+    }
+
+    .logoHolder a img {
+        max-width: 100%;
+        left: 65%;
+    }
+
+    .list-inline {
+        visibility: hidden;
+    }
+
+    .list-inline > li:last-child {
+        visibility: visible;
+        font-size: 20px;
+        position: absolute;
+        top: 4em;
+        left: 38%;
+    }
+
+    .container-fluid {
+        padding-top: 0;
+    }
+
+    .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
+        margin-top: 115px;
+    }
+
+    // .header-h1 {
+    //     padding-top: 100px;
+    // }
+
+    #contact {
+        padding-left: 20px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .cd-fixed-bg.cd-bg-4 {
+        visibility: hidden;
+        min-height: 0%;
+        background-size: 0%;
+    }
+
+    .speedway-is {
+        margin: 0px;
+    }
+
+    .footer-filler p {
+        line-height: 30px;
+        width: 290px;
+        padding-left: 30px;
+    }
+
+    .footer-filler {
+        margin-bottom: 0;
+        padding-left: 5px;
+    }
+
+    .InputMessage {
+        width: 100%;
+    }
+
+    label.InputMessage {
+        margin-bottom: 0;
+    }
+
+    .InputCompany {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .InputEmail {
+        width: 100%;
+    }
+
+    .InputPhone {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #contact label {
+        margin-left: 0px;
+    }
+
+    .address {
+        width: 295px;
+        // right: 2.5em;
+        margin-top: 5px;
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    h4 {
+        margin-left: 24%;
+    }
+}
+
+// /* iPhone 5 and 5S (portrait and landscape) ----------- */
+// @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 //
-//     .logoHolder a {
-//         padding: 0 0 0 0.4em;
-//     }
-//
-//     .InputName {
-//         width: 100%;
-//     }
-//
-//     center {
-//         height: 0px;
-//     }
-//
-//     center > h1 {
-//         visibility: hidden;
-//         margin-top: 0px;
-//         margin-bottom: 0px;
-//     }
-//
-//     .cd-fixed-bg.cd-bg-1.header-img {
-//         visibility: hidden;
-//         min-height: 0%;
-//     }
-//
-//     .logoHolder a img {
-//         max-width: 100%;
-//         runleft: 65%;
-//     }
-//
-//     .list-inline {
-//         visibility: hidden;
-//     }
-//
-//     .list-inline > li:last-child {
-//         visibility: visible;
-//         font-size: 20px;
-//         position: absolute;
-//         top: 4em;
-//         left: 38%;
-//     }
-//
-//     .container-fluid {
-//         padding-top: 0;
-//     }
-//
-//     .col-xs-12.col-sm-6.col-lg-4.product-button.sr-t {
-//     margin-top: 115px;
-//     }
-//
-//     // .header-h1 {
-//     //     padding-top: 100px;
-//     // }
-//
-//     #contact {
-//         padding-left: 20px;
-//         margin-left: 0;
-//         margin-top: 0;
-//     }
-//
-//     .cd-fixed-bg.cd-bg-4 {
-//         visibility: hidden;
-//         min-height: 0%;
-//         background-size: 0%;
-//     }
-//
-//     .speedway-is {
-//         margin: 0px;
-//     }
-//
-//     .footer-filler p {
-//         line-height: 30px;
-//         width: 290px;
-//         padding-left: 30px;
-//     }
-//
-//     .footer-filler {
-//         margin-bottom: 0;
-//         padding-left: 5px;
-//     }
-//
-//     .InputMessage {
-//         width: 100%;
-//     }
-//
-//     label.InputMessage {
-//         margin-bottom: 0;
-//     }
-//
-//     .InputCompany {
-//         width: 100%;
-//         margin-left: 0;
-//     }
-//
-//     .InputEmail {
-//         width: 100%;
-//     }
-//
-//     .InputPhone {
-//         width: 100%;
-//         margin-left: 0;
-//     }
-//
-//     #contact label {
-//         margin-left: 0px;
-//     }
-//
-//     .address {
-//         width: 295px;
-//         // right: 2.5em;
-//         margin-top: 5px;
-//         text-align: center;
-//         padding-left: 40px;
-//     }
-//
-//     h4 {
-//         margin-left: 24%;
-//     }
 // }
-//
-// // /* iPhone 5 and 5S (portrait and landscape) ----------- */
-// // @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-// //
-// // }
-//
-// /* Desktops and laptops ----------- */
-// @media only screen  and (min-width : 1224px) {
-// /* Styles */
-// }
-//
-// /* Large screens ----------- */
-// @media only screen  and (min-width : 1824px) {
-// /* Styles */
-// }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}

@@ -39,7 +39,7 @@ var AssemblyComponent = React.createClass({
                                 </div>
                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
                                    <div className="supporting-center-assembly">
-                                       <p className="supporting-product-description fade-in sup-context top-padding-7">Let us help you make something bigger and better.  We love working together with our customers for a common purpose.  Let us accomplish your goals!</p>
+                                       <p className="supporting-product-description fade-in larger-font sup-context top-padding-7">Let us help you make something bigger and better.  We love working together with our customers for a common purpose.  Let us accomplish your goals!</p>
                                    </div>
                                </div>
                             </div>
@@ -50,13 +50,13 @@ var AssemblyComponent = React.createClass({
                                 <div className="col-md-6 bottom-tag no-top-padding assembly-project">
                                     <h2 className="project-managers">Project Managers standing by now to discuss your needs. Call, text or email for pricing!</h2>
                                 </div>
-                                <div className="col-md-6 call-button">
+                                <div className="col-md-6 call-button a-call">
                                     <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                                 </div>
                             </div>
                         </div>
 
-                         <div className="left-10">
+                         <div>
                              <Footer/>
                          </div>
                      </div>

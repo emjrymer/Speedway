@@ -17,24 +17,6 @@ var PlComponent = React.createClass({
                         <center className="tape-center">
                             <p className="product-description-header"><em>Actively coordinate your supply chain for<br/>business growth, cost savings, and one stop shop service.</em></p>
                         </center>
-
-                        <div className="row">
-                            <div className="supporting-description assembly-descript">
-                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
-                                    <center className="supporting-center-assembly">
-                                        <p className="supporting-product-description fade-in sup-context no-top-padding">Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.</p>
-                                        <p className="fade-in sup-context">_________________________________</p>
-
-                                    </center>
-                                </div>
-                               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column">
-                                   <center className="supporting-center-assembly">
-                                       <p className="supporting-product-description fade-in sup-context no-top-padding">Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency.</p>
-                                       <p className="fade-in sup-context">_________________________________</p>
-                                   </center>
-                               </div>
-                            </div>
-                        </div>
                         <div className="row light">
                             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <img className="img-responsive middle-border" src="images/3pl-person-cropped-white.jpg"/>
@@ -44,6 +26,22 @@ var PlComponent = React.createClass({
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <img className="img-responsive middle-border" src="images/3plperson-cropped-white.jpg"/>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="supporting-description pl-descript">
+                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-pl-column">
+                                    <center className="supporting-center-assembly">
+                                        <p className="fade-in sup-context">_________________________________</p>
+                                        <p className="supporting-product-description fade-in sup-context no-top-padding">Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.</p>
+                                    </center>
+                                </div>
+                                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-pl-column">
+                                    <center className="supporting-center-assembly">
+                                        <p className="supporting-product-description fade-in sup-context padding-top-25">Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency.</p>
+                                        <p className="fade-in sup-context">_________________________________</p>
+                                    </center>
+                                </div>
                             </div>
                         </div>
                         <div className="action">
@@ -56,8 +54,7 @@ var PlComponent = React.createClass({
                                 </div>
                             </div>
                         </div>
-
-                         <div className="left-10">
+                         <div>
                              <Footer/>
                          </div>
                      </div>
