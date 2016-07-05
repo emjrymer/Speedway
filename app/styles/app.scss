@@ -1717,6 +1717,31 @@ animation-delay: 0.7s;
     }
 }
 
+@media (max-device-width : 2048px) {
+    .header-h1 {
+        left: 7em;
+    }
+    #contact {
+        padding-left: 120px;
+    }
+    .InputEmail {
+        clear: both;
+    }
+    .InputPhone {
+        width: 17em;
+        margin-left: 0 !important;
+    }
+    iframe {
+        height: 350px;
+        width: 840px;
+    }
+}
+
+@media (max-device-width : 1224px) {
+    .list-inline > li {
+        font-size: 17px;
+    }
+}
 
 // /* iPhone 5 and 5S (portrait and landscape) ----------- */
 // @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
