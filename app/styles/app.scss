@@ -1719,7 +1719,7 @@ animation-delay: 0.7s;
 
 @media (max-device-width : 2048px) {
     .header-h1 {
-        left: 7em;
+        left: 7em !important;
     }
     #contact {
         padding-left: 120px;
