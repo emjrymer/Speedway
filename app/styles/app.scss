@@ -1702,8 +1702,20 @@ animation-delay: 0.7s;
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){}
-
+@media (max-device-width : 1440px) {
+    .header-h1 {
+        left: 3.4em;
+    }
+    iframe {
+        width: 640px;
+    }
+    #contact {
+        padding-left: 50px;
+    }
+    .footer-background {
+        height: 430px;
+    }
+}
 
 
 // /* iPhone 5 and 5S (portrait and landscape) ----------- */
