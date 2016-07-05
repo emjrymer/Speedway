@@ -229,7 +229,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                         React.createElement("div", {className: "action"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
-                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribustion be the answer for all of your questions!")
+                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
                                 ), 
                                 React.createElement("div", {className: "col-md-6 call-button"}, 
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
@@ -293,7 +293,7 @@ var Footer = React.createClass({displayName: "Footer",
                         )
                     ), 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-left-right-20"}, 
-                        React.createElement("iframe", {src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391758.30044883396!2d-82.58886075554875!3d34.9278619388954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1467427258002", width: "100%", height: "318", frameBorder: "0", allowFullScreen: true})
+                        React.createElement("iframe", {src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499157.6700034495!2d-83.51045443496618!3d33.903601326164065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88582bd673e7e323%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1467652780308", width: "100%", height: "318", frameBorder: "0", allowFullScreen: true})
                     )
                   ), 
                 React.createElement("div", {className: "copyright cr-second"}, 
@@ -451,7 +451,7 @@ var PlComponent = React.createClass({displayName: "PlComponent",
                         React.createElement("div", {className: "action"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
-                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribustion be the answer for all of your questions!")
+                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
                                 ), 
                                 React.createElement("div", {className: "col-md-6 call-button"}, 
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
@@ -482,16 +482,14 @@ var Services = React.createClass({displayName: "Services",
         return (
             React.createElement("div", {className: "row"}, 
 
-                React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-call"}, 
-                    React.createElement("a", {href: "#"}, 
-                        React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header black-text"}, "Speedway"), 
-                           React.createElement("p", {className: "product-description black-text"}, React.createElement("small", {className: "black-text"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {className: "black-text", href: "tel:864-271-1149"}, "864-271-1149"))
-                        )
+                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call"}, 
+                    React.createElement("div", {className: "product-expand"}, 
+                       React.createElement("h1", {className: "product-header"}, React.createElement("a", {className: "black-text", href: "/"}, "Speedway")), 
+                       React.createElement("p", {className: "product-description black-text"}, React.createElement("small", {className: "black-text"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {className: "black-text", href: "tel:864-271-1149"}, "864-271-1149"))
                     )
                 ), 
 
-                React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-t"}, 
+                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-t"}, 
                     React.createElement("span", {id: "surround"}, 
                     React.createElement("a", {href: "#tape-rewinders-speedway-packaging-greer-sc"}, 
                     React.createElement("div", {className: "product-expand"}, 
@@ -510,7 +508,7 @@ var Services = React.createClass({displayName: "Services",
                 )
                 ), 
 
-                React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-o"}, 
+                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-o"}, 
                 React.createElement("span", {id: "surround"}, 
                 React.createElement("a", {href: "#contact"}, 
                    React.createElement("div", {className: "product-expand"}, 
@@ -528,7 +526,7 @@ var Services = React.createClass({displayName: "Services",
                )
                )
                ), 
-               React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-b"}, 
+               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-b"}, 
                    React.createElement("span", {id: "surround"}, 
                    React.createElement("a", {href: "#bulk-plastic-dry-services-speedway-greer-sc"}, 
                    React.createElement("div", {className: "product-expand"}, 
@@ -546,7 +544,7 @@ var Services = React.createClass({displayName: "Services",
                    )
                    )
               ), 
-               React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-i"}, 
+               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-i"}, 
                    React.createElement("span", {id: "surround"}, 
                    React.createElement("a", {href: "#assembly-speedway-packaging-distribution-greer-sc"}, 
                        React.createElement("div", {className: "product-expand"}, 
@@ -564,7 +562,7 @@ var Services = React.createClass({displayName: "Services",
                    )
                    )
                ), 
-               React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-c"}, 
+               React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-c"}, 
                    React.createElement("span", {id: "surround"}, 
                    React.createElement("a", {href: "#copackaging-speedway-packaging-distribution-manufacturing-greer-sc"}, 
                    React.createElement("div", {className: "product-expand"}, 
@@ -582,7 +580,7 @@ var Services = React.createClass({displayName: "Services",
                    )
                )
                ), 
-           React.createElement("div", {className: "col-xs-12 col-sm-6 col-lg-4 product-button sr-3"}, 
+           React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-3"}, 
                React.createElement("span", {id: "surround"}, 
                React.createElement("a", {href: "#3pl-speedway-packaging-distribution-manufacturing-greer-sc"}, 
                React.createElement("div", {className: "product-expand"}, 

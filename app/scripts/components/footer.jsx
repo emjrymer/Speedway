@@ -39,7 +39,7 @@ var Footer = React.createClass({
                         </form>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-left-right-20">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391758.30044883396!2d-82.58886075554875!3d34.9278619388954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1467427258002" width="100%" height="318" frameBorder="0"allowFullScreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499157.6700034495!2d-83.51045443496618!3d33.903601326164065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88582bd673e7e323%3A0xc666b001e6b56b9d!2sSpeedway+Packaging+and+Distribution!5e0!3m2!1sen!2sus!4v1467652780308" width="100%" height="318" frameBorder="0" allowFullScreen></iframe>
                     </div>
                   </div>
                 <div className="copyright cr-second">

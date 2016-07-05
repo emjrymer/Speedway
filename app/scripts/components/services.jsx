@@ -7,16 +7,14 @@ var Services = React.createClass({
         return (
             <div className="row">
 
-                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-call">
-                    <a href="#">
-                        <div className="product-expand">
-                           <h1 className="product-header black-text">Speedway</h1>
-                           <p className="product-description black-text"><small className="black-text">Give Us A Call</small><br/><a className="black-text" href="tel:864-271-1149">864-271-1149</a></p>
-                        </div>
-                    </a>
+                <div className="col-xs-12 col-sm-12 col-md-12 product-button sr-call">
+                    <div className="product-expand">
+                       <h1 className="product-header"><a className="black-text" href="/">Speedway</a></h1>
+                       <p className="product-description black-text"><small className="black-text">Give Us A Call</small><br/><a className="black-text" href="tel:864-271-1149">864-271-1149</a></p>
+                    </div>
                 </div>
 
-                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-t">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-t">
                     <span id="surround">
                     <a href="#tape-rewinders-speedway-packaging-greer-sc">
                     <div className="product-expand">
@@ -35,7 +33,7 @@ var Services = React.createClass({
                 </span>
                 </div>
 
-                <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-o">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-o">
                 <span id="surround">
                 <a href="#contact">
                    <div className="product-expand">
@@ -53,7 +51,7 @@ var Services = React.createClass({
                </a>
                </span>
                </div>
-               <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-b">
+               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-b">
                    <span id="surround">
                    <a href="#bulk-plastic-dry-services-speedway-greer-sc">
                    <div className="product-expand">
@@ -71,7 +69,7 @@ var Services = React.createClass({
                    </a>
                    </span>
               </div>
-               <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-i">
+               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-i">
                    <span id="surround">
                    <a href="#assembly-speedway-packaging-distribution-greer-sc">
                        <div className="product-expand">
@@ -89,7 +87,7 @@ var Services = React.createClass({
                    </a>
                    </span>
                </div>
-               <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-c">
+               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-c">
                    <span id="surround">
                    <a href="#copackaging-speedway-packaging-distribution-manufacturing-greer-sc">
                    <div className="product-expand">
@@ -107,7 +105,7 @@ var Services = React.createClass({
                    </a>
                </span>
                </div>
-           <div className="col-xs-12 col-sm-6 col-lg-4 product-button sr-3">
+           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 product-button sr-3">
                <span id="surround">
                <a href="#3pl-speedway-packaging-distribution-manufacturing-greer-sc">
                <div className="product-expand">
