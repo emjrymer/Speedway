@@ -1045,7 +1045,7 @@ a address:hover{
   padding-left: 0px !important;
   // background-image: url("http://www.goglo.net/images/fp-rs-images-376x200/Warehouse_and_Cargo_Insurance.jpg");
   height: 575px;
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   padding-top: 105px;
   a {
@@ -1731,7 +1731,7 @@ animation-delay: 0.7s;
     }
 }
 
-@media (max-device-width : 1440px) {
+@media (min-device-width : 1440px) {
     .header-h1 {
         left: 3.4em;
     }
@@ -1746,9 +1746,9 @@ animation-delay: 0.7s;
     }
 }
 
-@media (max-device-width : 2048px) {
+@media (min-device-width : 2048px) {
     .header-h1 {
-        left: 7em !important;
+        left: 7em;
     }
     #contact {
         padding-left: 120px;
@@ -1758,7 +1758,7 @@ animation-delay: 0.7s;
     }
     .InputPhone {
         width: 17em;
-        margin-left: 0 !important;
+        margin-left: 0;
     }
     iframe {
         height: 350px;
@@ -1766,23 +1766,13 @@ animation-delay: 0.7s;
     }
 }
 
-@media (max-device-width : 1224px) {
+@media (min-device-width : 1224px) {
     .list-inline > li {
         font-size: 17px;
     }
 }
 
-// /* iPhone 5 and 5S (portrait and landscape) ----------- */
-// @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-//
-// }
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
-}
-
 /* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
+@media only screen  and (max-width : 1824px) {
 /* Styles */
 }
