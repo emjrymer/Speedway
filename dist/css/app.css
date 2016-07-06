@@ -6850,11 +6850,7 @@ form > div {
     font-size: 20px;
     position: absolute;
     top: 4.1em;
-    left: 38%; }
-
-  .logoHolder a img {
-    max-width: 100%;
-    margin-left: 85%; } }
+    left: 38%; } }
 @media (max-width: 775px) {
   .list-inline {
     visibility: hidden; }
@@ -6864,12 +6860,19 @@ form > div {
     font-size: 20px;
     position: absolute;
     top: 4.1em;
-    left: 38%; }
-
-  .logoHolder a img {
-    max-width: 100%;
-    margin-left: 85%; } }
+    left: 38%; } }
 @media (max-device-width: 320px) {
+  .header-h1 {
+    display: none !important; }
+
+  header#head {
+    width: 320px !important; }
+
+  .logoHolder > a > iframe {
+    width: 320px !important;
+    padding: 0px !important;
+    margin: 0px !important; }
+
   .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
     display: block !important; }
 
@@ -6909,8 +6912,17 @@ form > div {
     padding-top: 20px; }
 
   #contact h4 {
-    margin-left: 5%; } }
+    margin-left: 5%; }
+
+  #contact {
+    padding-left: 3% !important; }
+
+  .InputPhone {
+    width: 100% !important; } }
 @media (max-device-width: 375px) {
+  .header-h1 {
+    display: none !important; }
+
   .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
     display: block !important; }
 
@@ -6950,8 +6962,14 @@ form > div {
     padding-top: 20px; }
 
   #contact h4 {
-    margin-left: 5%; } }
+    margin-left: 5%; }
+
+  #contact {
+    padding-left: 2% !important; } }
 @media (max-device-width: 425px) {
+  .header-h1 {
+    display: none !important; }
+
   .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
     display: block !important; }
 
@@ -6991,8 +7009,14 @@ form > div {
     padding-top: 20px; }
 
   #contact h4 {
-    margin-left: 5%; } }
+    margin-left: 5%; }
+
+  #contact {
+    padding-left: 4% !important; } }
 @media (max-device-width: 768px) {
+  .header-h1 {
+    display: none !important; }
+
   .container-fluid {
     padding-top: 0px !important;
     height: 0px !important; }
@@ -7036,7 +7060,10 @@ form > div {
     padding-top: 20px; }
 
   #contact h4 {
-    margin-left: 5%; } }
+    margin-left: 5%; }
+
+  #contact {
+    padding-left: 3% !important; } }
 @media (max-device-width: 1024px) {
   .container-fluid {
     padding-top: 0px !important;
@@ -7082,6 +7109,38 @@ form > div {
 
   #contact h4 {
     margin-left: 5%; } }
+@media (max-device-width: 1440px) {
+  .header-h1 {
+    left: 3.4em; }
+
+  iframe {
+    width: 640px; }
+
+  #contact {
+    padding-left: 50px; }
+
+  .footer-background {
+    height: 430px; } }
+@media (max-device-width: 2048px) {
+  .header-h1 {
+    left: 7em !important; }
+
+  #contact {
+    padding-left: 120px; }
+
+  .InputEmail {
+    clear: both; }
+
+  .InputPhone {
+    width: 17em;
+    margin-left: 0 !important; }
+
+  iframe {
+    height: 350px;
+    width: 840px; } }
+@media (max-device-width: 1224px) {
+  .list-inline > li {
+    font-size: 17px; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */ }

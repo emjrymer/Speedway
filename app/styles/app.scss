@@ -1384,11 +1384,6 @@ animation-delay: 0.7s;
         top: 4.1em;
         left: 38%;
     }
-
-    .logoHolder a img {
-        max-width: 100%;
-        margin-left: 85%;
-    }
 }
 
 @media (max-width: 775px) {
@@ -1403,15 +1398,23 @@ animation-delay: 0.7s;
         top: 4.1em;
         left: 38%;
     }
-
-    .logoHolder a img {
-        max-width: 100%;
-        margin-left: 85%;
-    }
 }
 
 
 @media (max-device-width : 320px) {
+    .header-h1 {
+        display: none !important;
+    }
+    header#head {
+        width: 320px !important;
+    }
+
+    .logoHolder > a > iframe {
+        width: 320px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
     .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
         display: block !important;
     }
@@ -1464,10 +1467,20 @@ animation-delay: 0.7s;
 
     #contact h4 {
         margin-left: 5%;
+    }
+    #contact {
+        padding-left: 3% !important;
+    }
+    .InputPhone {
+        width: 100% !important;
     }
 }
 
 @media (max-device-width : 375px) {
+    .header-h1 {
+        display: none !important;
+    }
+
     .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
         display: block !important;
     }
@@ -1520,10 +1533,17 @@ animation-delay: 0.7s;
 
     #contact h4 {
         margin-left: 5%;
+    }
+    #contact {
+        padding-left: 2% !important;
     }
 }
 
 @media (max-device-width : 425px) {
+    .header-h1 {
+        display: none !important;
+    }
+
     .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
         display: block !important;
     }
@@ -1577,9 +1597,15 @@ animation-delay: 0.7s;
     #contact h4 {
         margin-left: 5%;
     }
+    #contact {
+        padding-left: 4% !important;
+    }
 }
 
 @media (max-device-width : 768px) {
+    .header-h1 {
+        display: none !important;
+    }
     .container-fluid {
         padding-top: 0px !important;
         height: 0px !important;
@@ -1638,6 +1664,9 @@ animation-delay: 0.7s;
 
     #contact h4 {
         margin-left: 5%;
+    }
+    #contact {
+        padding-left: 3% !important;
     }
 }
 
