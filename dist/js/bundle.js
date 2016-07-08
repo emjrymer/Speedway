@@ -621,7 +621,13 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
             React.createElement("div", null, 
             React.createElement("div", null, React.createElement(Header, null)), 
             React.createElement("div", {className: "container-fluid"}, 
-                React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "row light"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    ), 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-5 header-img supporting-header"}, 
                         React.createElement("center", {className: "tape-center"}, 
                             React.createElement("h1", {className: "header-h1 supporting-h1"}, "Tape")
@@ -632,20 +638,20 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                         React.createElement("div", {className: "row"}, 
                             React.createElement("div", {className: "supporting-description"}, 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 "}, 
-                                    React.createElement("div", {className: "fade-in sup-context"}, 
+                                    React.createElement("div", {className: "fade-in sup-context video-container"}, 
                                       React.createElement("iframe", {className: "tape-video", src: "https://www.youtube.com/embed/YjjD9dFHEWs", frameBorder: "0", allowFullScreen: true})
                                     )
                                 ), 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom"}, 
                                     React.createElement("div", {className: "no-padding-bottom supporting-center"}, 
-                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
-                                        React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
+                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile-320"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
+                                        React.createElement("p", {className: "fade-in sup-context hide"}, "_________________________________"), 
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile-320"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
                                     )
                                 )
                             )
                         ), 
-                        React.createElement("div", {className: "action tape-action-container"}, 
+                        React.createElement("div", {className: "action tape-action-container mobile-320"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
                                     React.createElement("h2", {className: "project-managers tape-action"}, "Exceed customer’s expectations with high quality BOPP acrylic and hotmelt packaging tape made to your custom specifications today.")
@@ -655,7 +661,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                                 )
                             )
                         ), 
-                        React.createElement("div", null, 
+                        React.createElement("div", {className: "mobile-320"}, 
                             React.createElement(Footer, null)
                         )
                     )
