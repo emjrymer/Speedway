@@ -86,7 +86,13 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
             React.createElement("div", null, 
             React.createElement("div", null, React.createElement(Header, null)), 
             React.createElement("div", {className: "container-fluid"}, 
-                React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "row light"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    ), 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-bulk header-img supporting-header"}, 
                         React.createElement("h1", {className: "header-h1 supporting-h1 bulk-header"}, "Plastic Dry Bulk Services"), 
                         React.createElement("center", {className: "tape-center"}, 
@@ -97,20 +103,20 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                 React.createElement("div", {className: "row"}, 
                                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-left-column"}, 
                                         React.createElement("div", {className: "supporting-center"}, 
-                                            React.createElement("p", {className: "supporting-product-description fade-in sup-context no-top-padding"}, "For years Speedway Packaging and Distribution has provided plastic dry bulk services for customers and our continued goal is to ensure our customers have the best possible service."), 
+                                            React.createElement("p", {className: "supporting-product-description fade-in sup-context no-top-padding mobile no-border-or-margin"}, "For years Speedway Packaging and Distribution has provided plastic dry bulk services for customers and our continued goal is to ensure our customers have the best possible service."), 
                                             React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
-                                            React.createElement("h3", {className: "fade-in sup-context margin-top-6"}, "Some Of Our Specifics", React.createElement("br", null), "Railcar Box Offs, Sea Container Offloading, Dry Bulk Container Service, Super Sacks or Bags to Tankers, Silo to Tankers Service, and Warehouse Storage.")
+                                            React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile groove-border bulk-center-padding-top"}, "Some Of Our Specifics", React.createElement("br", null), "Railcar Box Offs, Sea Container Offloading, Dry Bulk Container Service, Super Sacks or Bags to Tankers, Silo to Tankers Service, and Warehouse Storage.")
                                          )
                                      ), 
                                      React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 left-10"}, 
-                                         React.createElement("div", {className: "fade-in sup-context"}, 
+                                         React.createElement("div", {className: "fade-in sup-context video-container"}, 
                                              React.createElement("iframe", {className: "tape-video", src: "https://www.youtube.com/embed/GiejTGDrMFk", frameBorder: "0", allowFullScreen: true})
                                          )
                                      )
                                  )
                              )
                         ), 
-                        React.createElement("div", {className: "action"}, 
+                        React.createElement("div", {className: "action bulk-action-container mobile"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 call-button"}, 
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
@@ -120,7 +126,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                 )
                             )
                         ), 
-                        React.createElement("div", null, 
+                        React.createElement("div", {className: "mobile"}, 
                             React.createElement(Footer, null)
                         )
                     )
@@ -643,15 +649,15 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                                     )
                                 ), 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom"}, 
-                                    React.createElement("div", {className: "no-padding-bottom supporting-center"}, 
-                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile-320"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
+                                    React.createElement("div", {className: "no-padding-bottom supporting-center padding-top-20"}, 
+                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
                                         React.createElement("p", {className: "fade-in sup-context hide"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile-320"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile smaller-font"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
                                     )
                                 )
                             )
                         ), 
-                        React.createElement("div", {className: "action tape-action-container mobile-320"}, 
+                        React.createElement("div", {className: "action tape-action-container mobile"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
                                     React.createElement("h2", {className: "project-managers tape-action"}, "Exceed customer’s expectations with high quality BOPP acrylic and hotmelt packaging tape made to your custom specifications today.")
@@ -661,7 +667,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                                 )
                             )
                         ), 
-                        React.createElement("div", {className: "mobile-320"}, 
+                        React.createElement("div", {className: "mobile"}, 
                             React.createElement(Footer, null)
                         )
                     )
