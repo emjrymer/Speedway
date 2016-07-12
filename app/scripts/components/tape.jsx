@@ -11,7 +11,7 @@ var TapeComponent = React.createClass({
             <div>
             <div><Header/></div>
             <div className="container-fluid">
-                <div className="row light">
+                <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 product-button sr-call dark">
                         <div className="product-expand">
                            <h1 className="product-header"><a href="/">Speedway</a></h1>

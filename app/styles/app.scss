@@ -2162,11 +2162,11 @@ animation-delay: 0.7s;
 
 }
 
-@media (min-device-width: 1024px) {
-.col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
-    display: block !important;
-}
-}
+// @media (min-device-width: 1024px) {
+// .col-xs-12.col-sm-12.col-md-12.product-button.sr-call {
+//     display: block !important;
+// }
+// }
 
 @media (max-device-width : 1024px) and (min-device-width : 769px) {
     h3.fade-in.sup-context.margin-top-6.mobile, p.supporting-product-description.fade-in.sup-context.mobile.smaller-font {
