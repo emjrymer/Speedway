@@ -236,7 +236,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                                     React.createElement("center", {className: "supporting-center-co"}, 
                                         React.createElement("h2", {className: "supporting-product-description fade-in sup-context mobile"}, "Our experience, abilities, industry connections, and production quality make everything easier for our customers."), 
                                         React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Speedway Packaging and Distribution helps your business meet the growing demands of the future.  Does your campany have new or existing business with growing demand but having challenges expanding capacity?", React.createElement("br", null), "That's where we come in!")
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile2"}, "Speedway Packaging and Distribution helps your business meet the growing demands of the future.  Does your campany have new or existing business with growing demand but having challenges expanding capacity?", React.createElement("br", null), "That's where we come in!")
                                      )
                                  ), 
                                  React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column mobile"}, 
