@@ -33,7 +33,7 @@ var BulkComponent = React.createClass({
                                             <h3 className="fade-in sup-context margin-top-6 mobile groove-border bulk-center-padding-top">Some Of Our Specifics<br/>Railcar Box Offs, Sea Container Offloading, Dry Bulk Container Service, Super Sacks or Bags to Tankers, Silo to Tankers Service, and Warehouse Storage.</h3>
                                          </div>
                                      </div>
-                                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 left-10">
+                                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 left-10 m1024 i768">
                                          <div className="fade-in sup-context video-container">
                                              <iframe className="tape-video" src="https://www.youtube.com/embed/GiejTGDrMFk" frameBorder="0" allowFullScreen></iframe>
                                          </div>
@@ -41,12 +41,12 @@ var BulkComponent = React.createClass({
                                  </div>
                              </div>
                         </div>
-                        <div className="action bulk-action-container mobile">
+                        <div className="action bulk-action-container mobile m768 m425">
                             <div className="row">
-                                <div className="col-md-6 call-button">
+                                <div className="col-md-6 call-button one-second">
                                     <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>
                                 </div>
-                                <div className="col-md-6 bottom-tag no-top-padding bulk-project">
+                                <div className="col-md-6 bottom-tag no-top-padding bulk-project one-second">
                                     <h2 className="project-managers">Let Speedway Packaging and Distribution be the answer for all of your questions!</h2>
                                 </div>
                             </div>

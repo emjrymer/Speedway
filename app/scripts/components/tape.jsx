@@ -26,7 +26,7 @@ var TapeComponent = React.createClass({
                             <p className="product-description-header"><em>Just arrived: New WebTec Slitter<br/>making the highest quality BOPP packaging tape.</em></p>
                         </center>
                         <div className="row">
-                            <div className="supporting-description">
+                            <div className="supporting-description side-padding">
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
                                     <div className="fade-in sup-context video-container">
                                       <iframe className="tape-video" src="https://www.youtube.com/embed/YjjD9dFHEWs" frameBorder="0" allowFullScreen></iframe>
@@ -36,7 +36,7 @@ var TapeComponent = React.createClass({
                                     <div className="no-padding-bottom supporting-center padding-top-20">
                                         <h3 className="fade-in sup-context margin-top-6 mobile">Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications.</h3>
                                         <p className="fade-in sup-context hide">_________________________________</p>
-                                        <p className="supporting-product-description fade-in sup-context mobile smaller-font">Custom runs, quick turn around<br/>2” and 3” Clear or Tan<br/>50 yds, 100 yds, 150 yds Lenghts available<br/>Waterbased Acrylic and Hot Melt Adhesive<br/>Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
+                                        <p className="supporting-product-description fade-in sup-context mobile m1024 smaller-font">Custom runs, quick turn around<br/>2” and 3” Clear or Tan<br/>50 yds, 100 yds, 150 yds Lenghts available<br/>Waterbased Acrylic and Hot Melt Adhesive<br/>Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
                                     </div>
                                 </div>
                             </div>

@@ -14,13 +14,19 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
             React.createElement("div", null, React.createElement(Header, null)), 
             React.createElement("div", {className: "container-fluid"}, 
                 React.createElement("div", {className: "row"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    ), 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-assembly header-img supporting-header"}, 
                         React.createElement("h1", {className: "header-h1 supporting-h1 assembly-header"}, "Light Assembly"), 
                         React.createElement("center", {className: "tape-center"}, 
                             React.createElement("p", {className: "product-description-header shadow"}, React.createElement("em", null, "From start to finish our team fits", React.createElement("br", null), "components together to make sense of your time and budget."))
                         ), 
 
-                        React.createElement("div", {className: "row light"}, 
+                        React.createElement("div", {className: "row light not"}, 
                             React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
                                 React.createElement("img", {className: "img-responsive middle-border", src: "images/assembly-white.jpg"})
                             ), 
@@ -36,18 +42,18 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
                             React.createElement("div", {className: "supporting-description assembly-descript"}, 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column"}, 
                                     React.createElement("div", {className: "supporting-center-assembly"}, 
-                                        React.createElement("h1", {className: "fade-in sup-context"}, "No job too big, no job too small, and no deadline too short!")
+                                        React.createElement("h1", {className: "fade-in sup-context mobile"}, "No job too big, no job too small, and no deadline too short!")
                                     )
                                 ), 
                                React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-assembly-column"}, 
                                    React.createElement("div", {className: "supporting-center-assembly"}, 
-                                       React.createElement("p", {className: "supporting-product-description fade-in larger-font sup-context top-padding-7"}, "Let us help you make something bigger and better.  We love working together with our customers for a common purpose.  Let us accomplish your goals!")
+                                       React.createElement("p", {className: "supporting-product-description fade-in larger-font sup-context top-padding-7 mobile"}, "Let us help you make something bigger and better.  We love working together with our customers for a common purpose.  Let us accomplish your goals!")
                                    )
                                )
                             )
                         ), 
 
-                        React.createElement("div", {className: "action assembly-action"}, 
+                        React.createElement("div", {className: "action assembly-action mobile"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding assembly-project"}, 
                                     React.createElement("h2", {className: "project-managers"}, "Project Managers standing by now to discuss your needs. Call, text or email for pricing!")
@@ -58,7 +64,7 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
                             )
                         ), 
 
-                         React.createElement("div", null, 
+                         React.createElement("div", {className: "mobile"}, 
                              React.createElement(Footer, null)
                          )
                      )
@@ -108,7 +114,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                             React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile groove-border bulk-center-padding-top"}, "Some Of Our Specifics", React.createElement("br", null), "Railcar Box Offs, Sea Container Offloading, Dry Bulk Container Service, Super Sacks or Bags to Tankers, Silo to Tankers Service, and Warehouse Storage.")
                                          )
                                      ), 
-                                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 left-10"}, 
+                                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 left-10 m1024 i768"}, 
                                          React.createElement("div", {className: "fade-in sup-context video-container"}, 
                                              React.createElement("iframe", {className: "tape-video", src: "https://www.youtube.com/embed/GiejTGDrMFk", frameBorder: "0", allowFullScreen: true})
                                          )
@@ -116,12 +122,12 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                  )
                              )
                         ), 
-                        React.createElement("div", {className: "action bulk-action-container mobile"}, 
+                        React.createElement("div", {className: "action bulk-action-container mobile m768 m425"}, 
                             React.createElement("div", {className: "row"}, 
-                                React.createElement("div", {className: "col-md-6 call-button"}, 
+                                React.createElement("div", {className: "col-md-6 call-button one-second"}, 
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
                                 ), 
-                                React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding bulk-project"}, 
+                                React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding bulk-project one-second"}, 
                                     React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
                                 )
                             )
@@ -211,6 +217,12 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
             React.createElement("div", null, React.createElement(Header, null)), 
             React.createElement("div", {className: "container-fluid"}, 
                 React.createElement("div", {className: "row"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    ), 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-5 header-img supporting-header"}, 
                         React.createElement("center", {className: "tape-center"}, 
                             React.createElement("h1", {className: "header-h1 supporting-h1 co-header"}, "Co Packaging")
@@ -222,17 +234,17 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                             React.createElement("div", {className: "co-supporting-description fade-in"}, 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column-1"}, 
                                     React.createElement("center", {className: "supporting-center-co"}, 
-                                        React.createElement("h2", {className: "supporting-product-description fade-in sup-context"}, "Our experience, abilities, industry connections, and production quality make everything easier for our customers."), 
+                                        React.createElement("h2", {className: "supporting-product-description fade-in sup-context mobile"}, "Our experience, abilities, industry connections, and production quality make everything easier for our customers."), 
                                         React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
                                         React.createElement("p", {className: "supporting-product-description fade-in sup-context"}, "Speedway Packaging and Distribution helps your business meet the growing demands of the future.  Does your campany have new or existing business with growing demand but having challenges expanding capacity?", React.createElement("br", null), "That's where we come in!")
                                      )
                                  ), 
-                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column"}, 
+                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-co-column mobile"}, 
                                   React.createElement("img", {className: "fade-in sup-context co-sup-image", src: "../dist/images/copackperson-blur-10-cropped.jpg"})
                                 )
                             )
                         ), 
-                        React.createElement("div", {className: "action"}, 
+                        React.createElement("div", {className: "action co-m mobile"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
                                     React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
@@ -243,7 +255,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                             )
                         ), 
 
-                        React.createElement("div", null, 
+                        React.createElement("div", {className: "mobile"}, 
                             React.createElement(Footer, null)
                         )
                     )
@@ -422,12 +434,18 @@ var PlComponent = React.createClass({displayName: "PlComponent",
             React.createElement("div", null, React.createElement(Header, null)), 
             React.createElement("div", {className: "container-fluid"}, 
                 React.createElement("div", {className: "row"}, 
+                    React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
+                        React.createElement("div", {className: "product-expand"}, 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
+                        )
+                    ), 
                     React.createElement("div", {className: "cd-fixed-bg cd-bg-assembly header-img supporting-header"}, 
                         React.createElement("h1", {className: "header-h1 supporting-h1 pl-header"}, "3PL"), 
                         React.createElement("center", {className: "tape-center"}, 
                             React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "Actively coordinate your supply chain for", React.createElement("br", null), "business growth, cost savings, and one stop shop service."))
                         ), 
-                        React.createElement("div", {className: "row light"}, 
+                        React.createElement("div", {className: "row light not"}, 
                             React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-4 col-lg-4"}, 
                                 React.createElement("img", {className: "img-responsive middle-border", src: "images/3pl-person-cropped-white.jpg"})
                             ), 
@@ -443,18 +461,18 @@ var PlComponent = React.createClass({displayName: "PlComponent",
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-pl-column"}, 
                                     React.createElement("center", {className: "supporting-center-assembly"}, 
                                         React.createElement("p", {className: "fade-in sup-context"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context no-top-padding"}, "Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.")
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context no-top-padding mobile pl-support"}, "Our 3PL service encompasses anything that involves management of the way your business resources are moved to the areas where they are required.")
                                     )
                                 ), 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-pl-column"}, 
                                     React.createElement("center", {className: "supporting-center-assembly"}, 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context padding-top-25"}, "Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency."), 
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context padding-top-25 mobile pl-support"}, "Actively analyzing your supply chain for business opportunities, improved cost savings, risk management and end-to-end efficiency."), 
                                         React.createElement("p", {className: "fade-in sup-context"}, "_________________________________")
                                     )
                                 )
                             )
                         ), 
-                        React.createElement("div", {className: "action"}, 
+                        React.createElement("div", {className: "action mobile pl-container"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding"}, 
                                     React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
@@ -464,7 +482,7 @@ var PlComponent = React.createClass({displayName: "PlComponent",
                                 )
                             )
                         ), 
-                         React.createElement("div", null, 
+                         React.createElement("div", {className: "mobile"}, 
                              React.createElement(Footer, null)
                          )
                      )
@@ -642,7 +660,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                             React.createElement("p", {className: "product-description-header"}, React.createElement("em", null, "Just arrived: New WebTec Slitter", React.createElement("br", null), "making the highest quality BOPP packaging tape."))
                         ), 
                         React.createElement("div", {className: "row"}, 
-                            React.createElement("div", {className: "supporting-description"}, 
+                            React.createElement("div", {className: "supporting-description side-padding"}, 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 "}, 
                                     React.createElement("div", {className: "fade-in sup-context video-container"}, 
                                       React.createElement("iframe", {className: "tape-video", src: "https://www.youtube.com/embed/YjjD9dFHEWs", frameBorder: "0", allowFullScreen: true})
@@ -652,7 +670,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                                     React.createElement("div", {className: "no-padding-bottom supporting-center padding-top-20"}, 
                                         React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
                                         React.createElement("p", {className: "fade-in sup-context hide"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile smaller-font"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile m1024 smaller-font"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
                                     )
                                 )
                             )
