@@ -9,7 +9,7 @@ var Services = React.createClass({
 
                 <div className="col-xs-12 col-sm-12 col-md-12 product-button sr-call">
                     <div className="product-expand">
-                       <h1 className="product-header"><a className="black-text" href="">Speedway</a></h1>
+                       <h1 className="product-header"><a className="black-text" href="../index.html">Speedway</a></h1>
                        <p className="product-description black-text"><small className="black-text">Give Us A Call</small><br/><a className="black-text" href="tel:864-271-1149">864-271-1149</a></p>
                     </div>
                 </div>

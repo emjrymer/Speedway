@@ -16,7 +16,7 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -95,7 +95,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -219,7 +219,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -344,7 +344,7 @@ var Header = React.createClass({displayName: "Header",
             React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
                 React.createElement("div", {className: "holder"}, 
                     React.createElement("div", {className: "logoHolder"}, 
-                        React.createElement("a", {href: "/", title: "Speedway | Packaging and Distribution"}, 
+                        React.createElement("a", {href: "../index.html", title: "Speedway | Packaging and Distribution"}, 
                             React.createElement("img", {height: "75px", src: "images/speedway-logo-transparent.png", alt: "Speedway Packaging and Distribution", "data-pin-nopin": "true"})
                         )
                     )
@@ -436,7 +436,7 @@ var PlComponent = React.createClass({displayName: "PlComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -508,7 +508,7 @@ var Services = React.createClass({displayName: "Services",
 
                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call"}, 
                     React.createElement("div", {className: "product-expand"}, 
-                       React.createElement("h1", {className: "product-header"}, React.createElement("a", {className: "black-text", href: "/"}, "Speedway")), 
+                       React.createElement("h1", {className: "product-header"}, React.createElement("a", {className: "black-text", href: "../index.html"}, "Speedway")), 
                        React.createElement("p", {className: "product-description black-text"}, React.createElement("small", {className: "black-text"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {className: "black-text", href: "tel:864-271-1149"}, "864-271-1149"))
                     )
                 ), 
@@ -648,7 +648,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 

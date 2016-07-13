@@ -14,7 +14,7 @@ var PlComponent = React.createClass({
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 product-button sr-call dark">
                         <div className="product-expand">
-                           <h1 className="product-header"><a href="">Speedway</a></h1>
+                           <h1 className="product-header"><a href="../index.html">Speedway</a></h1>
                            <p className="product-description"><small>Give Us A Call</small><br/><a href="tel:864-271-1149">864-271-1149</a></p>
                         </div>
                     </div>
