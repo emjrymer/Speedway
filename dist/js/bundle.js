@@ -56,7 +56,7 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
                         React.createElement("div", {className: "action assembly-action mobile"}, 
                             React.createElement("div", {className: "row"}, 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding assembly-project"}, 
-                                    React.createElement("h2", {className: "project-managers"}, "Project Managers standing by now to discuss your needs. Call, text or email for pricing!")
+                                    React.createElement("h2", {className: "project-managers margin-left-150"}, "Project Managers standing by now to discuss your needs. Call, text or email for pricing!")
                                 ), 
                                 React.createElement("div", {className: "col-md-6 call-button a-call"}, 
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
@@ -128,7 +128,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                                     React.createElement("a", {href: "tel:864-271-1149"}, React.createElement("button", {className: "btn btn-default btn-lg"}, "Give Us A Call", React.createElement("br", null), React.createElement("small", null, "(864)271-1149")))
                                 ), 
                                 React.createElement("div", {className: "col-md-6 bottom-tag no-top-padding bulk-project one-second"}, 
-                                    React.createElement("h2", {className: "project-managers"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
+                                    React.createElement("h2", {className: "project-managers margin-right-150"}, "Let Speedway Packaging and Distribution be the answer for all of your questions!")
                                 )
                             )
                         ), 

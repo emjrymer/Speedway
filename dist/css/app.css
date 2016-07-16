@@ -6604,12 +6604,12 @@ a address:hover {
   border: 1px solid #696262; }
 
 .btn-default {
-  border: 1px solid #696262; }
+  border: 3px solid #696262; }
 
 .btn-default:hover {
-  background-color: #477054;
-  border: 1px solid #597e65;
-  color: #fff; }
+  background-color: transparent;
+  border: 3px solid #597e65;
+  color: #597e65; }
 
 .default {
   background: #fff;
@@ -6743,7 +6743,12 @@ label.InputMessage {
   margin-bottom: 0; }
 
 .submit-button {
-  clear: both; }
+  clear: both;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 3px solid #fff; }
 
 label {
   margin: 0;
@@ -7986,8 +7991,11 @@ form > div {
   center.cr {
     font-size: 17px; } }
 @media (min-device-width: 2048px) and (min-device-width: 1441px) {
-  h2.project-managers {
+  h2.project-managers.margin-right-150 {
     margin-right: 150px; }
+
+  h2.project-managers.margin-left-150 {
+    margin-left: 150px; }
 
   #contact label {
     font-size: 18px; }

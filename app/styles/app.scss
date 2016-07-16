@@ -1093,8 +1093,8 @@ a address:hover{
 }
 
 .btn-default:hover {
-    // background-color: #477054;
-    border: 1px solid #597e65;
+    background-color: transparent;
+    border: 3px solid #597e65;
     color: #597e65;
 }
 
@@ -2852,7 +2852,7 @@ animation-delay: 0.7s;
     }
 }
 
-@media (max-device-width : 1440px) and (min-device-width : 1225px){
+@media (min-device-width : 1440px) and (min-device-width : 1225px){
 
     .list-inline > li {
         font-size: 21px;
@@ -2964,7 +2964,7 @@ animation-delay: 0.7s;
 
 }
 
-@media (max-device-width : 2048px) and (min-device-width : 1441px) {
+@media (min-device-width : 2048px) and (min-device-width : 1441px) {
 
     h2.project-managers.margin-right-150 {
         margin-right: 150px;
