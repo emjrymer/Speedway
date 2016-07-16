@@ -54,7 +54,7 @@ var AssemblyComponent = React.createClass({
                         <div className="action assembly-action mobile">
                             <div className="row">
                                 <div className="col-md-6 bottom-tag no-top-padding assembly-project">
-                                    <h2 className="project-managers">Project Managers standing by now to discuss your needs. Call, text or email for pricing!</h2>
+                                    <h2 className="project-managers margin-left-150">Project Managers standing by now to discuss your needs. Call, text or email for pricing!</h2>
                                 </div>
                                 <div className="col-md-6 call-button a-call">
                                     <a href="tel:864-271-1149"><button className="btn btn-default btn-lg">Give Us A Call<br/><small>(864)271-1149</small></button></a>

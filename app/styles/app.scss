@@ -1089,13 +1089,13 @@ a address:hover{
 }
 
 .btn-default {
-    border: 1px solid #696262;
+    border: 3px solid #696262;
 }
 
 .btn-default:hover {
-    background-color: #477054;
+    // background-color: #477054;
     border: 1px solid #597e65;
-    color: #fff;
+    color: #597e65;
 }
 
 .default {
@@ -1266,6 +1266,11 @@ label.InputMessage {
 
 .submit-button {
     clear: both;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #fff;
 }
 
 label {
@@ -2847,7 +2852,7 @@ animation-delay: 0.7s;
     }
 }
 
-@media (min-device-width : 1440px) and (min-device-width : 1225px){
+@media (max-device-width : 1440px) and (min-device-width : 1225px){
 
     .list-inline > li {
         font-size: 21px;
@@ -2959,10 +2964,14 @@ animation-delay: 0.7s;
 
 }
 
-@media (min-device-width : 2048px) and (min-device-width : 1441px) {
+@media (max-device-width : 2048px) and (min-device-width : 1441px) {
 
-    h2.project-managers {
+    h2.project-managers.margin-right-150 {
         margin-right: 150px;
+    }
+
+    h2.project-managers.margin-left-150 {
+        margin-left: 150px;
     }
 
     #contact label {
