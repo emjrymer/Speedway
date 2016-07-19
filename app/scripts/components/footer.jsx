@@ -33,8 +33,8 @@ var Footer = React.createClass({
                                <label className="InputMessage">Message</label>
                                <input type="text" name="Message" className="form-control InputMessage" placeholder="i.e. - Pricing info request." />
                           </div>
-                            <input type="hidden" name="_next" value="dist/index.html" />
-                            <input type="hidden" name="_subject" value="New Customer!" />
+                            <input type="hidden" name="_next" value="/" />
+                            <input type="hidden" name="_subject" value="Cusomter Request from Website" />
                             <button type="submit" className="btn btn-default submit-button">Submit</button>
                         </form>
                     </div>

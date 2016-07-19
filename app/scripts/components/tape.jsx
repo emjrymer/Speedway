@@ -34,9 +34,9 @@ var TapeComponent = React.createClass({
                                 </div>
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom">
                                     <div className="no-padding-bottom supporting-center padding-top-20">
-                                        <h3 className="fade-in sup-context margin-top-6 mobile">Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications.</h3>
+                                        <h3 className="fade-in sup-context margin-top-6 mobile">Speedway has rewind capacity available to turn material into a valuable resource custom made to your specifications.</h3>
                                         <p className="fade-in sup-context hide">_________________________________</p>
-                                        <p className="supporting-product-description fade-in sup-context mobile m1024 smaller-font">Custom runs, quick turn around<br/>2” and 3” Clear or Tan<br/>50 yds, 100 yds, 150 yds Lenghts available<br/>Waterbased Acrylic and Hot Melt Adhesive<br/>Speedway can rewind inferior material<br/>for re-use into retail quality product contact us below for details</p>
+                                        <p className="supporting-product-description fade-in sup-context mobile m1024 smaller-font">Custom runs, quick turn around<br/>48mm and 72mm Clear or Tan<br/>50 yds, 100 yds, 150 yds Lenghts available<br/>Waterbased Acrylic and Hot Melt Adhesive<br/>Speedway can rewind material<br/>for re-use into retail quality product contact us below for details</p>
                                     </div>
                                 </div>
                             </div>

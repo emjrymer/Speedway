@@ -305,8 +305,8 @@ var Footer = React.createClass({displayName: "Footer",
                                React.createElement("label", {className: "InputMessage"}, "Message"), 
                                React.createElement("input", {type: "text", name: "Message", className: "form-control InputMessage", placeholder: "i.e. - Pricing info request."})
                           ), 
-                            React.createElement("input", {type: "hidden", name: "_next", value: "dist/index.html"}), 
-                            React.createElement("input", {type: "hidden", name: "_subject", value: "New Customer!"}), 
+                            React.createElement("input", {type: "hidden", name: "_next", value: "/"}), 
+                            React.createElement("input", {type: "hidden", name: "_subject", value: "Cusomter Request from Website"}), 
                             React.createElement("button", {type: "submit", className: "btn btn-default submit-button"}, "Submit")
                         )
                     ), 
@@ -344,14 +344,14 @@ var Header = React.createClass({displayName: "Header",
             React.createElement("header", {className: "col-xs-12 col-sm-12 col-md-12 col-lg-12", id: "head"}, 
                 React.createElement("div", {className: "holder"}, 
                     React.createElement("div", {className: "logoHolder"}, 
-                        React.createElement("a", {href: "../index.html", title: "Speedway | Packaging and Distribution"}, 
+                        React.createElement("a", {href: "/", title: "Speedway | Packaging and Distribution"}, 
                             React.createElement("img", {height: "75px", src: "images/speedway-logo-transparent.png", alt: "Speedway Packaging and Distribution", "data-pin-nopin": "true"})
                         )
                     )
                 ), 
                 React.createElement("ul", {className: "list-inline"}, 
                    React.createElement("li", null, React.createElement("a", {href: "#tape-rewinders-speedway-packaging-greer-sc"}, "Tape")), 
-                   React.createElement("li", null, React.createElement("a", {href: "#bulk-plastic-dry-services-speedway-greer-sc"}, "Bulk")), 
+                   React.createElement("li", null, React.createElement("a", {href: "#bulk-plastic-dry-services-speedway-greer-sc"}, "Dry Bulk")), 
                    React.createElement("li", null, React.createElement("a", {href: "#assembly-speedway-packaging-distribution-greer-sc"}, "Assembly")), 
                    React.createElement("li", null, React.createElement("a", {href: "#copackaging-speedway-packaging-distribution-manufacturing-greer-sc"}, "Co Packaging")), 
                    React.createElement("li", null, React.createElement("a", {href: "#3pl-speedway-packaging-distribution-manufacturing-greer-sc"}, "3PL")), 
@@ -508,7 +508,7 @@ var Services = React.createClass({displayName: "Services",
 
                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call"}, 
                     React.createElement("div", {className: "product-expand"}, 
-                       React.createElement("h1", {className: "product-header"}, React.createElement("a", {className: "black-text", href: "../index.html"}, "Speedway")), 
+                       React.createElement("h1", {className: "product-header"}, React.createElement("a", {className: "black-text", href: "/"}, "Speedway")), 
                        React.createElement("p", {className: "product-description black-text"}, React.createElement("small", {className: "black-text"}, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {className: "black-text", href: "tel:864-271-1149"}, "864-271-1149"))
                     )
                 ), 
@@ -668,9 +668,9 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                                 ), 
                                 React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 supporting-right-column no-top-padding no-padding-bottom"}, 
                                     React.createElement("div", {className: "no-padding-bottom supporting-center padding-top-20"}, 
-                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile"}, "Speedway has rewind capacity available to turn distressed material into a valuable resource custom made to your specifications."), 
+                                        React.createElement("h3", {className: "fade-in sup-context margin-top-6 mobile"}, "Speedway has rewind capacity available to turn material into a valuable resource custom made to your specifications."), 
                                         React.createElement("p", {className: "fade-in sup-context hide"}, "_________________________________"), 
-                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile m1024 smaller-font"}, "Custom runs, quick turn around", React.createElement("br", null), "2” and 3” Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind inferior material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
+                                        React.createElement("p", {className: "supporting-product-description fade-in sup-context mobile m1024 smaller-font"}, "Custom runs, quick turn around", React.createElement("br", null), "48mm and 72mm Clear or Tan", React.createElement("br", null), "50 yds, 100 yds, 150 yds Lenghts available", React.createElement("br", null), "Waterbased Acrylic and Hot Melt Adhesive", React.createElement("br", null), "Speedway can rewind material", React.createElement("br", null), "for re-use into retail quality product contact us below for details")
                                     )
                                 )
                             )
