@@ -16,7 +16,7 @@ var AssemblyComponent = React.createClass({displayName: "AssemblyComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -95,7 +95,7 @@ var BulkComponent = React.createClass({displayName: "BulkComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -219,7 +219,7 @@ var CopackagingComponent = React.createClass({displayName: "CopackagingComponent
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -284,7 +284,7 @@ var Footer = React.createClass({displayName: "Footer",
                 React.createElement("div", {className: "row footer-wrapper"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-6 col-lg-6", id: "contact"}, 
                         React.createElement("h4", null, "Get in Touch"), 
-                         React.createElement("form", {action: "https://formspree.io/emjwivell@gmail.com", method: "POST"}, 
+                         React.createElement("form", {action: "https://formspree.io/bwivell@speedwaypackaging.net", method: "POST"}, 
                              React.createElement("div", {className: "form-group InputName"}, 
                                  React.createElement("label", {className: "InputName"}, "Name"), 
                                  React.createElement("input", {type: "text", className: "form-control InputName", placeholder: "i.e. - John Smith", name: "Name"})
@@ -295,7 +295,7 @@ var Footer = React.createClass({displayName: "Footer",
                              ), 
                              React.createElement("div", {className: "form-group InputEmail"}, 
                                  React.createElement("label", {className: "InputEmail"}, "Email address"), 
-                                 React.createElement("input", {type: "email", name: "_replyto", className: "form-control InputEmail", placeholder: "i.e. - JohnSmith@gmail.com"})
+                                 React.createElement("input", {type: "email", name: "Reply To", className: "form-control InputEmail", placeholder: "i.e. - JohnSmith@gmail.com"})
                             ), 
                             React.createElement("div", {className: "form-group InputPhone"}, 
                                 React.createElement("label", {className: "InputPhone"}, "Phone"), 
@@ -436,7 +436,7 @@ var PlComponent = React.createClass({displayName: "PlComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 
@@ -648,7 +648,7 @@ var TapeComponent = React.createClass({displayName: "TapeComponent",
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-12 col-sm-12 col-md-12 product-button sr-call dark"}, 
                         React.createElement("div", {className: "product-expand"}, 
-                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "../index.html"}, "Speedway")), 
+                           React.createElement("h1", {className: "product-header"}, React.createElement("a", {href: "/"}, "Speedway")), 
                            React.createElement("p", {className: "product-description"}, React.createElement("small", null, "Give Us A Call"), React.createElement("br", null), React.createElement("a", {href: "tel:864-271-1149"}, "864-271-1149"))
                         )
                     ), 

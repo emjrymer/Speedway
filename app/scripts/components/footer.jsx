@@ -12,7 +12,7 @@ var Footer = React.createClass({
                 <div className="row footer-wrapper">
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="contact">
                         <h4>Get in Touch</h4>
-                         <form action="https://formspree.io/emjwivell@gmail.com" method="POST">
+                         <form action="https://formspree.io/bwivell@speedwaypackaging.net" method="POST">
                              <div className="form-group InputName">
                                  <label className="InputName">Name</label>
                                  <input type="text" className="form-control InputName" placeholder="i.e. - John Smith" name="Name" />
@@ -23,7 +23,7 @@ var Footer = React.createClass({
                              </div>
                              <div className="form-group InputEmail">
                                  <label className="InputEmail">Email address</label>
-                                 <input type="email" name="_replyto" className="form-control InputEmail" placeholder="i.e. - JohnSmith@gmail.com" />
+                                 <input type="email" name="Reply To" className="form-control InputEmail" placeholder="i.e. - JohnSmith@gmail.com" />
                             </div>
                             <div className="form-group InputPhone">
                                 <label className="InputPhone">Phone</label>
