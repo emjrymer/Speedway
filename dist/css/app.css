@@ -5892,7 +5892,7 @@ h1 {
   background-position: center center; }
 
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/forkliftandpeople.png");
+  background-image: url("../images/Speedway_Front-1096X465-hdr.jpg");
   background-size: 100%;
   margin-left: 0px;
   margin-right: 0px; }
@@ -6530,13 +6530,15 @@ h1.fade-in.sup-context {
   font-family: 'Open Sans', sans-serif;
   text-shadow: 3px 3px #110a66;
   color: #f5f5f5;
-  padding-top: 270px;
+  /*padding-top: 270px;*/
+  padding-top: 200px;
   font-size: 80px;
   font-weight: bolder;
   z-index: 100;
   position: absolute;
   top: 0;
-  left: 165px; }
+  /*left: 165px; */
+}
 
 .tape-header {
   left: 40%;
